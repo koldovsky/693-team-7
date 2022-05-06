@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DotGothic16&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 :root {
-    font-family: 'DotGothic16', sans-serif;
     --main-text-color: rgb(0, 0, 0);
     --background-color: rgb(50,206, 211);
     color: var(--main-text-color);
@@ -13,4 +14,8 @@
 img {
     display: block;
     width: 100%;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
 }
