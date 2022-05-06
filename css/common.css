@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'DotGothic16', sans-serif;
+    --main-text-color: rgb(0, 0, 0);
+    --background-color: rgb(50,206, 211);
+    color: var(--main-text-color);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
