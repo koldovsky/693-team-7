@@ -11,10 +11,10 @@
     color: var(--main-text-color);
 }
 
-img {
+/* img { 
     display: block;
     width: 100%;
-}
+/* } */
 
 h2 {
     font-family: 'Bebas Neue', cursive;
