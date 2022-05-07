@@ -1,7 +1,7 @@
 .footer-h2{
     color: var(--main-text-color);
 }
-.footer-span{
+.footer-red-button{
     color: red;
 }
 .footer-p-color{
@@ -18,4 +18,12 @@
     background-color: gray;
     color: gray;
     height: 3px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: white;
+    transition: background-color .3s;
+}
+footer-nav a:hover{
+    color: red;
 }
