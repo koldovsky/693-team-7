@@ -1,0 +1,25 @@
+.footer-h2{
+    color: var(--main-text-color);
+}
+.footer-span{
+    color: red;
+}
+.footer-p-color{
+    color: rgba(255, 255, 255, 0.62);
+}
+.footer-img-logo{
+    width: 179px;
+    height: auto;
+}
+.footer-hr{
+    border: none;
+    background-color: red;
+    color: red;
+    height: 4px;
+}
+.footer-hr-bottom{
+    border: none;
+    background-color: gray;
+    color: gray;
+    height: 3px;
+}
