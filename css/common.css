@@ -1,24 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 * {
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --main-text-color: #000000;
+    --main-text-color: #000;
     --main-red-color: #f40106;
-    --background-color: #ffffff;
+    --background-color: #fff;
     color: var(--main-text-color);
 }
 
-/* img { 
-    display: block;
-    width: 100%;
-/* } */
-
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'BebasNeue-Regular', cursive;
     font-style: normal;
     letter-spacing: normal;
     text-decoration: none;
