@@ -6,8 +6,9 @@
 }
 
 :root {
-    --main-text-color: rgb(0, 0, 0);
-    --background-color: rgb(50,206, 211);
+    --main-text-color: #000000;
+    --main-red-color: #f40106;
+    --background-color: #ffffff;
     color: var(--main-text-color);
 }
 
@@ -16,8 +17,15 @@
     width: 100%;
 /* } */
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
     font-size: 52px;
     font-weight: 400;
+}
+
+.red-dot {
+    color: var(--main-red-color);
 }
