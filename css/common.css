@@ -4,14 +4,30 @@
 }
 
 :root {
-    --main-text-color: rgb(0, 0, 0);
-    --background-color: rgb(50,206, 211);
+    --main-text-color: #000;
+    --main-red-color: #f40106;
+    --background-color: #fff;
     color: var(--main-text-color);
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'BebasNeue-Regular', cursive;
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h3 {
     font-size: 52px;
     font-weight: 400;
 }
 
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.red-dot {
+    color: var(--main-red-color);
+}
