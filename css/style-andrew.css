@@ -1,0 +1,8 @@
+.learn-more {
+    height: 100%;
+    min-height: 100vh;
+
+    background-image: url(../img/learn-more/learn-more.jpg);
+    background-position: 100%;
+    font-style: inherit;
+}
