@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 .learn-more {
     height: 100%;
     min-height: 100vh;
@@ -11,14 +12,22 @@
     padding-top: 90px;
     padding-right: 40px;
     
-
 }
-.learn-more__content-h2{
+.learn-more__content-h2__position-2{
    
     font-size: 124px;
     vertical-align: baseline;
+    
 }
-.original_brands{
+.learn-more__content-div__position-5{
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.original_brands__position-6{
    
     margin-top: auto;
     font-size: 32px;
