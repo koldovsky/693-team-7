@@ -16,7 +16,6 @@
 .learn-more__content-h2{
    
     font-size: 124px;
-    margin-top: 20%;
     vertical-align: baseline;
 }
 .original_brands{
@@ -28,7 +27,7 @@
     font-style: normal;
     opacity: .5;
 }
-.learn-more_button{
+.button position-7{
     text-decoration: none;
     color: white;
     border: 2px solid white;
