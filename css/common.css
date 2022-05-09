@@ -35,39 +35,9 @@ h4 {
     color: var(--main-red-color);
 }
 
-/* Vasyl blocks */
-
-/* Section New Arivals */
-
 .special-divider {
     border: none;
     background-color: var(--main-red-color);
     height: 2px;
     width: 10%;
 }
-
-.collection__a {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    color: var(--main-text-color);
-    font-weight: 700;
-}
-
-.collection__a:hover {
-    text-decoration: underline;    
-}
-
-.why-choose-us {
-    text-align: center;
-}
-
-.gray-divider {
-    border: none;
-    background-color: var(--main-gray-color);
-    height: 2px;
-    width: 5%;
-    margin: auto;
-}
-
-/* End Vasyl Blocks */
