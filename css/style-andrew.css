@@ -6,18 +6,14 @@
     color: white;
 }
 .learn-more__content{
-    border: 3px solid white;
-    text-align: right;
-    margin-left: 50%;
+    margin-top: 20px;
+    margin-left: 40%;
     padding-top: 90px;
-    padding-right: 40px;
-    
+    padding-right: 40px;   
 }
-.learn-more__content-h2__position-2{
-   
+.learn-more__content-h2__position-2{  
     font-size: 124px;
-    vertical-align: baseline;
-    
+    vertical-align: baseline;   
 }
 .learn-more__content-div__position-5{
     display: inline;
@@ -25,12 +21,11 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
+    padding-top: 10px;
 }
-.learn-more__content-div__position-5__top-brands{
-    
-}
-.original_brands__position-6{
-   
+
+
+.original_brands__position-6{  
     margin-top: auto;
     font-size: 32px;
     text-transform: uppercase;
@@ -42,5 +37,10 @@
     text-decoration: none;
     color: white;
     border: 2px solid white;
-    
+       
+}
+.learn-more__content-text__position-8{
+    color: rgb(255, 255, 255);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
 }
