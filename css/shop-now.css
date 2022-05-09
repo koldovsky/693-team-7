@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap')
+
+
 .shop-now {
     background-image: url(../img/shop-now/shop_now_background.png);
     background-position: 75% 25%;
     min-height: 1000px;
     width: auto;
+}
+.shop-now__subheader, .shop-now__h2 {
+    font-family: "Bebas Neue", cursive;
+}
+.shop-now__subheader {
+    color: rgba(255,255,255,0.62);
+}
+.shop-now__h2 {
+    color: #fff;
+}
+.shop-now__button {
+    font-family: "PT Sans", sans-serif;
 }
