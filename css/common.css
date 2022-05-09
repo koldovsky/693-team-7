@@ -31,7 +31,7 @@ h4 {
     font-weight: 400;
 }
 
-.red-dot {
+.special-dot {
     color: var(--main-red-color);
 }
 
@@ -39,7 +39,7 @@ h4 {
 
 /* Section New Arivals */
 
-.red-divider {
+.special-divider {
     border: none;
     background-color: var(--main-red-color);
     height: 2px;
