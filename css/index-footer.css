@@ -31,12 +31,10 @@
 }
 .footer-a{
     color: var(--footer-a-color);
-}
-.footer-nav-a{
     text-decoration: none;
-    color: var(--footer-nav-a-color);
-    transition: background-color .3s;
 }
-footer-nav-a a:hover{
+footer-nav a:hover{
+    text-decoration: none;
+    transition: background-color .3s;
     color: var(--footer-nav-a-color);
 }
