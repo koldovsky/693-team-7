@@ -13,6 +13,11 @@
     color: var(--main-text-color);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bebas Neue', cursive;
     font-style: normal;
@@ -41,3 +46,4 @@ h4 {
     height: 2px;
     width: 10%;
 }
+
