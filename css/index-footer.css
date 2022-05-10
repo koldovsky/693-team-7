@@ -33,6 +33,9 @@
     color: var(--footer-a-color);
     text-decoration: none;
 }
+footer-nav{
+    color: var(--footer-nav-a-color);
+}
 footer-nav a:hover{
     text-decoration: none;
     transition: background-color .3s;
