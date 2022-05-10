@@ -11,6 +11,7 @@
     --background-color: #fff;
     --main-gray-color: #e0e0e0;
     --background-subheader-color: rgba(255,255,255,0.62);
+    --shop-now-button-special-color: #222323;
     color: var(--main-text-color);
 }
 

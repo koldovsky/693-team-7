@@ -1,7 +1,8 @@
 .shop-now {
     background-image: url(../img/shop-now/shop_now_background.png);
-    background-position: 75% 25%;
-    min-height: 1000px;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
     width: auto;
 }
 .shop-now__subheader, .shop-now__h2 {
@@ -10,12 +11,23 @@
 .shop-now__subheader {
     color: var(--background-subheader-color);
     font-size: 22px;
-    font-stretch: 100%;
     line-height: 30px;
+    font-weight: 400;
 }
 .shop-now__h2 {
     color: var(--background-color);
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 62px;
 }
 .shop-now__button {
     font-family: "PT Sans", sans-serif;
+    color: var(--shop-now-button-special-color);
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 22px;
+}
+.shop-now__button:hover {
+    color: var(--background-color)
 }
