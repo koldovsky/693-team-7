@@ -53,7 +53,7 @@ h4 {
     border: none;
     background-color: var(--main-red-color);
     height: 2px;
-    width: 10%;
+    width: 30%;
 }
 
 @media (max-width: 768px) {
