@@ -1,11 +1,12 @@
 :root{
-  --footer-nav-a-color: white;
+  --footer-nav-a-color: rgb(165, 165, 165);
   --footer-dot-color: red;
-  --footer-p-color: rgba(255, 255, 255, 1);
+  --footer-p-color: rgb(165, 165, 165);
   --footer-hr: red;
   --footer-hr-background-color: red;
   --footer-hr-bottom-background-color: gray;
   --footer-hr-bottom: gray;
+  --footer-a-color: rgb(165, 165, 165);
 }
 .footer-h2{
     color: var(--main-text-color);
@@ -26,13 +27,14 @@
     border: none;
     background-color: var(--footer-hr-bottom-background-color);
     color: var(--footer-hr-bottom-background-color);
-    height: 3px;
+    height: 2px;
 }
-.footer-nav a{
+.footer-a{
+    color: var(--footer-a-color);
     text-decoration: none;
-    color: var(--footer-nav-a-color);
-    transition: background-color .3s;
 }
 footer-nav a:hover{
+    text-decoration: none;
+    transition: background-color .3s;
     color: var(--footer-nav-a-color);
 }
