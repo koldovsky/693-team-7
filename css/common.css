@@ -10,6 +10,7 @@
     --main-red-color: #f40106;
     --background-color: #fff;
     --main-gray-color: #e0e0e0;
+    --background-subheader-color: rgba(255,255,255,0.62);
     color: var(--main-text-color);
 }
 
