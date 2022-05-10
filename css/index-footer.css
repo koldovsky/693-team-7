@@ -1,5 +1,5 @@
 :root{
-  --footer-nav-a-color: white;
+  --footer-nav-a-color: rgb(165, 165, 165);
   --footer-dot-color: red;
   --footer-p-color: rgb(165, 165, 165);
   --footer-hr: red;
@@ -26,9 +26,9 @@
     border: none;
     background-color: var(--footer-hr-bottom-background-color);
     color: var(--footer-hr-bottom-background-color);
-    height: 3px;
+    height: 2px;
 }
-.footer-nav a{
+.footer-nav-a{
     text-decoration: none;
     color: var(--footer-nav-a-color);
     transition: background-color .3s;
