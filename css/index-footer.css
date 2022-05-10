@@ -31,7 +31,10 @@
 }
 .footer-a{
     color: var(--footer-a-color);
-    text-decoration: none;
+    text-decoration: nounderline;
+}
+.footer-nav{
+    color: var(--footer-nav-a-color);
 }
 footer-nav a:hover{
     text-decoration: none;
