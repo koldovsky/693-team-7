@@ -46,3 +46,30 @@
     background-image: url(../img/shop-collection/flask.png);
     background-position: center;
 }
+
+@media (min-width: 768px) {
+    .shop-collection-container {
+        display: flex;
+    }
+    .shop-collection__new-arrivals {
+        flex: 5 1 auto;
+    }
+    .shop-collection__trainers {
+        flex: 1 1 auto;       
+    }
+    .shop-collection__hotsale {
+        flex: 1 1 auto;
+    }
+    .shop-collection__new-arrivals {
+        margin-left: 60px;
+    }
+    .shop-collection__hotsale {
+        margin-right: 60px;
+    }
+    .shop-collection__trainers, .shop-collection__hotsale {
+        margin-left: 0;
+    }
+    .shop-collection__new-arrivals, .shop-collection__trainers, .shop-collection__hotsale {
+        padding: 215px 33px 45px 33px;
+    }
+}
