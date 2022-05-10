@@ -22,7 +22,7 @@
 }
 .shop-now__button {
     font-family: "PT Sans", sans-serif;
-    color: var(--shop-now-button-special-color);
+    color: var(--header-color);
     font-size: 17px;
     text-decoration: none;
     font-weight: 700;

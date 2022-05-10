@@ -1,0 +1,23 @@
+.sale__h2 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    color: var(--header-color);
+}
+.sale__special-divider {
+    height: 2px;
+    width: 5%;
+    background-color: var(--main-gray-color);
+    margin-left: 45%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sale__text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var(--text-under-special-divider-color);
+}
