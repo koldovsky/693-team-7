@@ -7,9 +7,11 @@
 
 :root {
     --main-text-color: #000;
+    --header-color: #222323;
     --main-red-color: #f40106;
     --background-color: #fff;
     --main-gray-color: #e0e0e0;
+    --text-under-special-divider-color: #717474;
     --background-subheader-color: rgba(255,255,255,0.62);
     color: var(--main-text-color);
 }
