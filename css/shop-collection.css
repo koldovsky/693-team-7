@@ -1,3 +1,11 @@
+.shop-collection {
+    margin-top: 85px;
+}
+
+.shop-collection__h3 {
+    margin-bottom: 14px;
+}
+
 .collection__a {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
@@ -6,6 +14,35 @@
     font-weight: 700;
 }
 
+.shop-collection__p {
+    margin-top: 20px;
+}
+
 .collection__a:hover {
     text-decoration: underline;    
+}
+
+.shop-collection__new-arrivals, .shop-collection__trainers, .shop-collection__hotsale {
+    margin-top: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 50px;
+    padding: 165px 33px 37px 33px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shop-collection__new-arrivals {
+    background-image: url(../img/shop-collection/new-arrival.svg);
+    background-position: top left;
+}
+
+.shop-collection__trainers {
+    background-image: url(../img/shop-collection/scateboard.png);
+    background-position: center;
+}
+
+.shop-collection__hotsale {
+    background-image: url(../img/shop-collection/flask.png);
+    background-position: center;
 }

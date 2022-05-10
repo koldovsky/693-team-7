@@ -32,6 +32,12 @@ h3 {
     font-weight: 400;
 }
 
+@media (max-width: 768px) {
+    h3 {
+        font-size: 38px;
+    }
+}
+
 h4 {
     font-size: 24px;
     font-weight: 400;
@@ -48,3 +54,8 @@ h4 {
     width: 10%;
 }
 
+@media (max-width: 768px) {
+    .special-divider {
+        width: 30%;
+    }
+}
