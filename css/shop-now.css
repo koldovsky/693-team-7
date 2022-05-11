@@ -5,6 +5,10 @@
     min-height: 600px;
     width: auto;
 }
+.shop-now__text {
+    padding: 110px 24px 110px 24px;
+    box-sizing: border-box;
+}
 .shop-now__subheader, .shop-now__h2 {
     font-family: "Bebas Neue", cursive;
 }
@@ -19,6 +23,8 @@
     font-size: 62px;
     font-weight: 400;
     line-height: 62px;
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
 .shop-now__button {
     font-family: "PT Sans", sans-serif;
