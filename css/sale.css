@@ -1,9 +1,10 @@
 .sale {
-    text-align: center;
-    margin: 35px 10px;
+    
+    margin: 70px 10px;
 }
 
 .sale__h2 {
+    text-align: center;
     font-size: 38px;
     font-weight: 400;
     line-height: 44px;
@@ -20,11 +21,17 @@
 }
 
 .sale__text {
+    text-align: center;
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     color: var(--brand_color-subtitle);
+}
+
+.sale__items {
+    display: grid;
+    justify-items: center;
 }
 
 .sale__items-item {
@@ -35,6 +42,7 @@
 .sale__items-item-img {
     box-sizing: border-box;
     width: auto;
+    margin: 20px;
 }
 
 .sale__items-item-link {
@@ -56,12 +64,6 @@
     line-height: 28px;
 }
 
-@media (min-widht: 480px) {
-    .sale__items {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
 .sale__items-item-button {
     font-family: 'PT Sans', sans-serif;
@@ -73,6 +75,7 @@
     text-decoration: none;
     text-align: center;
     padding: 15px 26px;
+    margin: 16px 0;
 }
 
 .sale__items-item-button:hover {
