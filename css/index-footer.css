@@ -14,8 +14,14 @@
     padding: 50px;
     text-align: center;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+}
+@media (min-width: 640px){
+    #footer-box-on-map{
+        width: 450px;
+        text-align: center;
+        
+    }
 }
 .footer-h2{
     color: var(--main-text-color);
