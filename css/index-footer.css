@@ -1,13 +1,4 @@
-:root{
-  --footer-nav-a-color: rgb(165, 165, 165);
-  --footer-dot-color: red;
-  --footer-p-color: rgb(165, 165, 165);
-  --footer-hr: red;
-  --footer-hr-background-color: red;
-  --footer-hr-bottom-background-color: gray;
-  --footer-hr-bottom: gray;
-  --footer-a-color: rgb(165, 165, 165);
-}
+
 #footer-box-on-map{
     background-color: white;
     width: 600px;

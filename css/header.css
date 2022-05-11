@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cagliostro&family=PT+Sans:wght@700&family=Roboto:wght@100&display=swap');
+
 
 .header__top-navigation {
     position: static; 
@@ -52,8 +52,16 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 62px;
     font-weight: 400;
+    line-height: 1;
+    
+    position: relative;
+    margin-left: 5%;
 }
 
 .text_brand {
     color: var(--brand_color-secondary);
+}
+
+.social-icons {  
+    color: var(--brand_color-main-alt); 
 }
