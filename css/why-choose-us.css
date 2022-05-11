@@ -13,3 +13,9 @@ border-color {
     width: 5%;
     margin: auto;
 }
+
+why-choose-us__p {
+    color: var(--paragraph_text-color);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}

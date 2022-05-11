@@ -33,19 +33,19 @@ h2, h3, h4, h5, h6 {
 }
 
 h3 {
-    font-size: 52px;
+    font-size: 38px;
     font-weight: 400;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     h3 {
-        font-size: 38px;
+        font-size: 45px;
     }
 }
 
-@media (max-width: 898px) {
+@media (min-width: 898px) {
     h3 {
-        font-size: 45px;
+        font-size: 52px;
     }
 }
 
