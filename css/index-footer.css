@@ -11,16 +11,13 @@
 #footer-box-on-map{
     background-color: white;
     width: 300px;
-    padding: 50px;
-    text-align: center;
-    display: flex;
-    align-items: center;
 }
 @media (min-width: 640px){
     #footer-box-on-map{
         width: 450px;
+        background-color: white;
         text-align: center;
-        
+
     }
 }
 .footer-h2{
@@ -46,7 +43,7 @@
 }
 .footer-a{
     color: var(--footer-a-color);
-    text-decoration: nounderline;
+    text-decoration: none;
 }
 .footer-nav{
     color: var(--footer-nav-a-color);
