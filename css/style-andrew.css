@@ -1,46 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 .learn-more {
-    height: 100%;
-    min-height: 100vh;
     background-image: url(../img/learn-more/learn-more.jpg);
-    color: white;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    text-align: right;
+
 }
-.learn-more__content{
-    margin-top: 20px;
+
+.learn-more__content {
+
     margin-left: 40%;
-    padding-top: 90px;
-    padding-right: 40px;   
-}
-.learn-more__content-h2__position-2{  
-    font-size: 124px;
-    vertical-align: baseline;   
-}
-.learn-more__content-div__position-5{
-    display: inline;
-    color: rgb(255, 255, 255);
-    font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    padding-top: 10px;
+    justify-content: flex-end;
+    color: var(--brand_color-main-alt);
 }
 
-
-.original_brands__position-6{  
-    margin-top: auto;
-    font-size: 32px;
+.learn-more__content-original__brands {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-style: normal;
     opacity: .5;
 }
-.button_position-7{
-    text-decoration: none;
-    color: white;
-    border: 2px solid white;
-       
+
+.learn-more__content-keep__fit-with__comfort {
+    display: flex;
+    justify-content: center;
+    font-size: 124px;
+    text-align: left;
 }
-.learn-more__content-text__position-8{
-    color: rgb(255, 255, 255);
+
+
+
+.learn-more__content-description {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--brand_color-main-alt);
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
+    text-align: left;
+    margin:20px 20px 0 0;
 }
+
+.learn-more__content-benefits {
+    
+    text-align: left;
+    color: var(--brand_color-main-alt);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.learn-more__content-benefits__top-brands__icon {
+    content: url(../img/learn-more/icon.svg);
+    width: 24px;
+    height: 24px;
+    
+}
+
+.learn-more__content-benefits__return__icon {
+    content: url(../img/learn-more/icon.svg);
+    width: 24px;
+    height: 24px;
+}
+
+.learn-more__content-benefits__delivery__icon {
+    content: url(../img/learn-more/icon.svg);
+    width: 24px;
+    height: 24px;
+}
+
+
+.learn-more__button{
+    text-decoration: none;
+    color: var(--brand_color-main-alt);
+    border: 2px solid white;
+    padding: 18px 30px 18px 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 90px;
+    margin-top: 15px;
+}
+
+.learn-more__button-content {}
