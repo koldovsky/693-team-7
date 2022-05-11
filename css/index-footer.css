@@ -13,6 +13,9 @@
     width: 300px;
     padding: 50px;
     text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .footer-h2{
     color: var(--main-text-color);
