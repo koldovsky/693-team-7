@@ -8,6 +8,11 @@
   --footer-hr-bottom: gray;
   --footer-a-color: rgb(165, 165, 165);
 }
+.footer-box-on-map{
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+}
 .footer-h2{
     color: var(--main-text-color);
 }
