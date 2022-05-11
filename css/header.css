@@ -1,31 +1,67 @@
+.header__top-banner {
+    color: var(--brand_color-main);
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold
+}
+
+.header__top-banner-contacts a {
+    color: var(--brand_color-main);
+    text-decoration: none;
+}
+
+.header__top-banner-contacts a:hover {
+    color: var(--brand_color-main);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .header__top-navigation {
-    position: static; 
+    background-color: var(--background-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.header__top-text { 
-    color: var(--brand_color-main-alt);
-    font-family: "PT Sans", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
+
+
+.header__top-navigation {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    z-index: 10;
 }
 
-.header__contacts { 
-    color: var(--brand_color-main);
-    text-decoration-style: solid;
-    font-family: "PT Sans", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.header__top-navigation-links {
-    color: var(--brand_color-main-alt);
-    font-family: "PT Sans", sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center; 
-}
 
 .button__head-Shop_Now {
     padding-top: 18px;
@@ -39,21 +75,24 @@
     font-family: "PT Sans", sans-serif;
     font-size: 16.5px;
     font-weight: bold;
+
 }
 
-.subheader {
+
+
+.header__subheader {
     font-family: 'Bebas Neue', cursive;
     color: var(--brand_color-subtitle);
     font-size: 24px;
     font-weight: 400;
 }
 
-.header__banner-h1 {
+.header__main-banner {
     font-family: 'Bebas Neue', cursive;
     font-size: 62px;
     font-weight: 400;
     line-height: 1;
-    
+
     position: relative;
     margin-left: 5%;
 }
@@ -62,6 +101,3 @@
     color: var(--brand_color-secondary);
 }
 
-.social-icons {  
-    color: var(--brand_color-main-alt); 
-}
