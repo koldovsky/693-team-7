@@ -27,6 +27,7 @@
     font-size: 18px;
 }
 .sale__items-item-img {
+    box-sizing: border-box;
     width: auto;
 }
 .sale__items-item-link {
