@@ -53,7 +53,7 @@
 .shop-now__conteiner {
     max-width: fit-content;
     background-color: var(--brand_color-main-alt);
-    padding: 18px 30px 18px 30px;
+    padding: 18px 30px;
     margin: 10px;
 }
 

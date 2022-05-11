@@ -61,3 +61,19 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+.sale__items-item-button {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--brand_color-main-alt);
+    background-color: var(--background-color);
+    border-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 26px;
+}
+
+.sale__items-item-button:hover {
+    background-color: var(--brand_color-secondary);
+}
