@@ -12,6 +12,8 @@
     --brand_color-subtitle: rgba(34, 35, 35, 0.46);
     --background-color: #222323;
     --paragraph_text-color: #717474;
+    --line-color: #e0e0e0;
+    color: var(--brand_color-main);
 }
 
 .main-wrapper {
@@ -50,8 +52,20 @@ h3 {
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
+}
+
+@media (min-width: 768px) {
+    h4 {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 992px) {
+    h4 {
+        font-size: 24px;
+    }
 }
 
 .special-dot {

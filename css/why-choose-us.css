@@ -1,21 +1,53 @@
-border-color {
-    --line-color: #9B9B9B;
-}
-
 .why-choose-us {
     text-align: center;
+}
+
+.why-choose-us__h3 {
+    margin-top: 110px;
 }
 
 .why-choose-us-divider {
     border: none;
     background-color: var(--line-color);
     height: 2px;
-    width: 5%;
-    margin: auto;
+    width: 10%;
+    margin: 12px auto;
 }
 
-why-choose-us__p {
+.why-choose-us__p, .why-choose-us__item__p  {
     color: var(--paragraph_text-color);
     font-family: 'PT Sans', sans-serif;
+}
+
+.why-choose-us__p {
     font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.why-choose-us__item__p {
+    font-size: 16px;
+}
+
+.why-choose-us__item {
+    border: 2px solid var(--line-color);
+    margin-top: 0;
+    margin-right: 24px;
+    margin-bottom: 50px;
+    margin-left: 24px;
+    padding: 35px;
+}
+
+.why-choose-us__item img {
+    margin: 0 auto;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.why-choose-us__h4 {
+    margin: 20px 0 25px 0;
+}
+
+.why-choose-us__container {
+    margin-bottom: 95px;
 }
