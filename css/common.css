@@ -14,6 +14,11 @@
     --paragraph_text-color: #717474;
 }
 
+.main-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -35,6 +40,12 @@ h3 {
 @media (max-width: 768px) {
     h3 {
         font-size: 38px;
+    }
+}
+
+@media (max-width: 898px) {
+    h3 {
+        font-size: 45px;
     }
 }
 

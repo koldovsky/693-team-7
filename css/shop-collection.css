@@ -10,7 +10,7 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     text-decoration: none;
-    color: var(--main-text-color);
+    color: var(--brand_color-main);
     font-weight: 700;
 }
 
@@ -55,21 +55,39 @@
         flex: 5 1 auto;
     }
     .shop-collection__trainers {
-        flex: 1 1 auto;       
+        flex: 1 1 auto;
+    }
+    .shop-collection__trainers .shop-collection__h3 {
+        margin-bottom: 73px;
     }
     .shop-collection__hotsale {
         flex: 1 1 auto;
     }
     .shop-collection__new-arrivals {
-        margin-left: 60px;
+        margin-left: 40px;
     }
     .shop-collection__hotsale {
-        margin-right: 60px;
+        margin-right: 40px;
     }
     .shop-collection__trainers, .shop-collection__hotsale {
         margin-left: 0;
     }
     .shop-collection__new-arrivals, .shop-collection__trainers, .shop-collection__hotsale {
         padding: 215px 33px 45px 33px;
+    }
+}
+
+@media (min-width: 824px) {
+    .shop-collection__trainers .shop-collection__h3 {
+        margin-bottom: 14px;
+    }
+}
+
+@media (min-width: 1320px) {
+    .shop-collection__new-arrivals {
+        margin-left: 0px;
+    }
+    .shop-collection__hotsale {
+        margin-right: 0px;
     }
 }
