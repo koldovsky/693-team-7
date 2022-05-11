@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&family=PT+Sans:wght@700&family=Roboto:wght@100&display=swap');
+
+.header__top-navigation {
+    position: static; 
+}
+
+.header__top-text { 
+    color: #000000;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header__contacts { 
+    padding: auto;
+    color: #000000;
+    text-decoration-style: solid;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header__top-navigation-links {
+    color: #ffffff;
+    
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.button__head-Shop_Now {
+    padding-top: 18px;
+    padding-right: 32px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    color: #fff;
+    background-color: #f40106;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16,5px;
+    font-weight: bold;
+}
+
+.subheader {
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(34, 35, 35, 0.46);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header__banner-h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.text_brand {
+    color: #f40106
+}
