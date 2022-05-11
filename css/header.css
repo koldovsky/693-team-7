@@ -5,7 +5,7 @@
 }
 
 .header__top-text { 
-    color: #000000;
+    color: var(--brand_color-main-alt);
     font-family: "PT Sans", sans-serif;
     font-weight: bold;
     font-size: 14px;
@@ -13,7 +13,7 @@
 
 .header__contacts { 
     padding: auto;
-    color: #000000;
+    color: var(--brand_color-main);
     text-decoration-style: solid;
     font-family: "PT Sans", sans-serif;
     font-weight: bold;
@@ -21,8 +21,7 @@
 }
 
 .header__top-navigation-links {
-    color: #ffffff;
-    
+    color: var(--brand_color-main-alt);
     font-family: "PT Sans", sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -34,8 +33,8 @@
     padding-right: 32px;
     padding-bottom: 18px;
     padding-left: 18px;
-    color: #fff;
-    background-color: #f40106;
+    color: var(--brand_color-main-alt);
+    background-color: var(--brand_color-secondary);
     display: inline-block;
     text-decoration: none;
     font-family: "PT Sans", sans-serif;
@@ -45,7 +44,7 @@
 
 .subheader {
     font-family: 'Bebas Neue', cursive;
-    color: rgba(34, 35, 35, 0.46);
+    color: var(--brand_color-subtitle);
     font-size: 24px;
     font-weight: 400;
 }
@@ -57,5 +56,5 @@
 }
 
 .text_brand {
-    color: #f40106
+    color: var(--brand_color-secondary);
 }

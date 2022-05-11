@@ -1,18 +1,15 @@
-
 * {
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --main-text-color: #000;
-    --header-color: #222323;
-    --main-red-color: #f40106;
-    --background-color: #fff;
-    --main-gray-color: #e0e0e0;
-    --text-under-special-divider-color: #717474;
-    --background-subheader-color: rgba(255,255,255,0.62);
-    color: var(--main-text-color);
+    --brand_color-main: #000000;
+    --brand_color-main-alt: #ffffff;
+    --brand_color-secondary: #f40106;
+    --brand_color-subtitle: rgba(34, 35, 35, 0.46);
+    --background-color: #222323;
+    --paragraph_text-color: #717474;
 }
 
 img {
@@ -45,12 +42,12 @@ h4 {
 }
 
 .special-dot {
-    color: var(--main-red-color);
+    color: var(--brand_color-secondary);
 }
 
 .special-divider {
     border: none;
-    background-color: var(--main-red-color);
+    background-color: var(--brand_color-secondary);
     height: 2px;
     width: 30%;
 }
