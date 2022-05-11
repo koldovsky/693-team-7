@@ -12,7 +12,6 @@
 }
 
 .header__contacts { 
-    padding: auto;
     color: var(--brand_color-main);
     text-decoration-style: solid;
     font-family: "PT Sans", sans-serif;
@@ -38,7 +37,7 @@
     display: inline-block;
     text-decoration: none;
     font-family: "PT Sans", sans-serif;
-    font-size: 16,5px;
+    font-size: 16.5px;
     font-weight: bold;
 }
 
