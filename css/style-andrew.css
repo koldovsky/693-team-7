@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 .learn-more {
     background-image: url(../img/learn-more/learn-more.jpg);
@@ -77,6 +76,9 @@
 
 .learn-more__button{
     text-decoration: none;
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 600;
     color: var(--brand_color-main-alt);
     border: 2px solid white;
     padding: 18px 30px 18px 30px;
@@ -86,4 +88,6 @@
     margin-top: 15px;
 }
 
-.learn-more__button-content {}
+.learn-more__button-icon{
+  
+}
