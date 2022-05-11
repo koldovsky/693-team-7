@@ -10,15 +10,7 @@
 }
 #footer-box-on-map{
     background-color: white;
-    width: 300px;
-}
-@media (min-width: 640px){
-    #footer-box-on-map{
-        width: 600px;
-        background-color: white;
-        text-align: center;
-
-    }
+    width: 600px;
 }
 .footer-h2{
     color: var(--main-text-color);
