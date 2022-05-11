@@ -5,12 +5,12 @@
     font-size: 38px;
     font-weight: 400;
     line-height: 44px;
-    color: var(--header-color);
+    color: var(--paragraph_text-color);
 }
 .sale__special-divider {
     height: 2px;
     width: 5%;
-    background-color: var(--main-gray-color);
+    background-color: var(--brand_color-subtitle);
     margin-left: 45%;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -20,7 +20,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    color: var(--text-under-special-divider-color);
+    color: var(--brand_color-subtitle);
 }
 .sale__items-item {
     font-family: 'PT Sans', sans-serif;
@@ -32,7 +32,7 @@
 }
 .sale__items-item-link {
     display: block;
-    color: var(--text-under-special-divider-color);
+    color: var(--brand_color-subtitle);
     text-decoration: none;
     font-weight: 400;
     line-height: 28px;
@@ -41,7 +41,7 @@
     text-decoration: underline;
 }
 .sale__items-item-price {
-    color: var(--main-red-color);
+    color: var(--brand_color-secondary);
     margin-top: 16px;
     font-weight: 700;
     line-height: 28px;

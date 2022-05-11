@@ -13,13 +13,13 @@
     font-family: "Bebas Neue", cursive;
 }
 .shop-now__subheader {
-    color: var(--background-subheader-color);
+    color: var(--brand_color-subtitle);
     font-size: 22px;
     line-height: 30px;
     font-weight: 400;
 }
 .shop-now__h2 {
-    color: var(--background-color);
+    color: var(--brand_color-main-alt);
     font-size: 62px;
     font-weight: 400;
     line-height: 62px;
@@ -28,12 +28,12 @@
 }
 .shop-now__button {
     font-family: "PT Sans", sans-serif;
-    color: var(--header-color);
+    color: var(--brand_color-main);
     font-size: 17px;
     text-decoration: none;
     font-weight: 700;
     line-height: 22px;
 }
 .shop-now__button:hover {
-    color: var(--background-color)
+    color: var(--brand_color-main-alt)
 }
