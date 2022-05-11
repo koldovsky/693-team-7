@@ -5,19 +5,27 @@
     min-height: 600px;
     width: auto;
 }
+
 .shop-now__text {
     padding: 110px 24px 110px 24px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.shop-now__subheader, .shop-now__h2 {
+
+.shop-now__subheader,
+.shop-now__h2 {
     font-family: "Bebas Neue", cursive;
 }
+
 .shop-now__subheader {
-    color: var(--brand_color-subtitle);
+    color: var(--paragraph_text-color);
     font-size: 22px;
     line-height: 30px;
     font-weight: 400;
 }
+
 .shop-now__h2 {
     color: var(--brand_color-main-alt);
     font-size: 62px;
@@ -26,6 +34,7 @@
     margin-top: 20px;
     margin-bottom: 35px;
 }
+
 .shop-now__button {
     font-family: "PT Sans", sans-serif;
     color: var(--brand_color-main);
@@ -34,6 +43,7 @@
     font-weight: 700;
     line-height: 22px;
 }
+
 .shop-now__button:hover {
     color: var(--brand_color-main-alt)
 }
