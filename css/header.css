@@ -1,8 +1,25 @@
+
+
+
 .header__top-banner {
     background-color: var(--brand_color-secondary);
     color: var(--brand_color-main-alt);
     font-family: "PT Sans", sans-serif;
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header__top-banner-tel-contacts {
+    margin-left: 20px;
+}
+
+.header__top-banner-contacts{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .header__top-banner-contacts a {
@@ -23,18 +40,6 @@
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
 
-    
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-    z-index: 10;
-
 }
 
 .navigation-wrapper-button a {
@@ -42,6 +47,10 @@
     text-decoration: none;
 }
 
+.navigation-wrapper {
+    padding: 30px;
+    margin: 30px;
+}
 
 
 
@@ -52,6 +61,7 @@
 .header__main-page {
     background-image: url(../img/header/head_bunner_background.jpg);
     background-size: cover;
+    height: 100vh;
 }
 
 
@@ -85,55 +95,10 @@
     text-decoration: none;
     display: inline-block;
     font-family: 'PT Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 700;  
+    font-size: 16.5px;
+    font-weight: 700;
 }
 
 .header__main-page-button :hover {
     background-color: var(--brand_color-main);
-}
-
-@media (min-width: 768px) {
-    .shop-collection-container {
-        display: flex;
-    }
-    .shop-collection__new-arrivals {
-        flex: 5 1 auto;
-    }
-    .shop-collection__trainers {
-        flex: 1 1 auto;
-    }
-    .shop-collection__trainers .shop-collection__h3 {
-        margin-bottom: 73px;
-    }
-    .shop-collection__hotsale {
-        flex: 1 1 auto;
-    }
-    .shop-collection__new-arrivals {
-        margin-left: 40px;
-    }
-    .shop-collection__hotsale {
-        margin-right: 40px;
-    }
-    .shop-collection__trainers, .shop-collection__hotsale {
-        margin-left: 0;
-    }
-    .shop-collection__new-arrivals, .shop-collection__trainers, .shop-collection__hotsale {
-        padding: 215px 33px 45px 33px;
-    }
-}
-
-@media (min-width: 807px) {
-    .shop-collection__trainers .shop-collection__h3 {
-        margin-bottom: 14px;
-    }
-}
-
-@media (min-width: 1320px) {
-    .shop-collection__new-arrivals {
-        margin-left: 0px;
-    }
-    .shop-collection__hotsale {
-        margin-right: 0px;
-    }
 }
