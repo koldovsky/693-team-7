@@ -1,16 +1,28 @@
-.video{
+.video {
     background-image: url(../img/video-bg.jpg);
 }
 
-.video__subtitle{
+.video__subtitle {
     color: var(--brand_color-subtitle);
     font-family: 'Bebas Neue', cursive;
     font-size: 22px;
     font-weight: 400;
 }
 
-.video__title{
+.video__title {
     color: var(--background-color);
     font-size: 62px;
     font-weight: 400;
+}
+
+.video__link-btn {
+    background-color: var(--brand_color-secondary);
+    color: var(--brand_color-main-alt);
+    padding: 15px 26px;
+    margin: 16px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700; 
 }
