@@ -1,0 +1,16 @@
+.video{
+    background-image: url(../img/video-bg.jpg);
+}
+
+.video__subtitle{
+    color: var(--brand_color-subtitle);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.video__title{
+    color: var(--background-color);
+    font-size: 62px;
+    font-weight: 400;
+}

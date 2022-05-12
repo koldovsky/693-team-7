@@ -1,0 +1,25 @@
+.about-us{
+    background-color: var(--background-color);
+
+}
+
+.about-us__item-title{
+    color: var(--brand_color-main-alt);
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.about-us__item-subtitle{
+    color: var(--brand_color-main-alt);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-us__item-text{
+    color: var(--brand_color-main-alt);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;    
+}
