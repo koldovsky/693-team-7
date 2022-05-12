@@ -74,20 +74,30 @@
 }
 
 
-.learn-more__button{
-    text-decoration: none;
-    text-align: left;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 600;
-    color: var(--brand_color-main-alt);
-    border: 2px solid white;
-    padding: 18px 30px 18px 30px;
-    display: flex;
-    justify-content: center;
-    max-width: 90px;
-    margin-top: 15px;
+.learn-more__button-container{
+    
+    max-width: fit-content;
+    padding: 18px 30px;
+    line-height: 22px;
+    border: 2px var(--brand_color-main-alt) solid;
+    
 }
 
-.learn-more__button-icon{
-  
+.learn-more__button{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "PT Sans", sans-serif;
+    color: var(--brand_color-main-alt);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    
+}    
+   
+.learn-more__button-container:hover {
+    background-color: var(--brand_color-main);
+}
+
+.learn-more__button-container:hover {
+    color: var(--brand_color-main-alt)
 }
