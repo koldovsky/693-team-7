@@ -19,7 +19,11 @@
 }
 
 
-.main-wrapper {
+.main-wrapper,
+.header__top-banner,
+.navigation,
+.header__main-page-text,
+.header__main-page-button {
     max-width: 1200px;
     margin: auto;
 }
