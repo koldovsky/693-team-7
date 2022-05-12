@@ -30,11 +30,16 @@
 .sale__items {
     display: grid;
     justify-items: center;
+    gap: 7px;
 }
 
 .sale__items-item {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
+    border-style: solid;
+    border-width: 7px;
+    border-image: linear-gradient(180deg, var(--stand-with-ukraine-blue), var(--stand-with-ukraine-yellow)) 1;
+    padding: 5px;
 }
 
 .sale__items-item-img {

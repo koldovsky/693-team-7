@@ -13,6 +13,8 @@
     --background-color: #222323;
     --paragraph_text-color: #717474;
     --line-color: #e0e0e0;
+    --stand-with-ukraine-blue: rgb(0, 139, 252);
+    --stand-with-ukraine-yellow: rgb(255, 255, 1);
     color: var(--brand_color-main);
 }
 
