@@ -121,12 +121,12 @@
 @media (max-width: 994px) {
     h2.learn-more__content-keep__fit-with__comfort {
         font-size: 93px;
-    }
+    }}
 
     @media (max-width: 767px) {
         h2.learn-more__content-keep__fit-with__comfort {
             font-size: 62px;
-        }
+        }}
 
         @media(max-width: 700px) {
             .learn-more__content-benefits__top_brands {
