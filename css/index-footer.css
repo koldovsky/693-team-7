@@ -17,12 +17,20 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        width: 300px;
-        height: 400px;
+        width: 700px;
+        height: 200px;
         border: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 
 .footer-phone-number {
-    margin: 25px;
+    margin-top: 25px;
+}
+.footer-addres{
+    margin-top: 25px;
+}
+.footer-email{
+    margin-top: 25px;
 }
