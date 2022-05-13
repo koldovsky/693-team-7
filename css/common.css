@@ -13,10 +13,17 @@
     --background-color: #222323;
     --paragraph_text-color: #717474;
     --line-color: #e0e0e0;
+    --stand-with-ukraine-blue: rgb(0, 139, 252);
+    --stand-with-ukraine-yellow: rgb(255, 255, 1);
     color: var(--brand_color-main);
 }
 
-.main-wrapper {
+
+.main-wrapper,
+.header__top-banner,
+.navigation,
+.header__main-page-text,
+.header__main-page-button {
     max-width: 1200px;
     margin: auto;
 }

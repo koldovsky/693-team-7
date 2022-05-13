@@ -1,111 +1,109 @@
+.header__top-line {
+    width: 100%;
+    height: 48px;
+    background-color: var(--brand_color-secondary);
+    
+}
+
 .header__top-banner {
-    color: var(--brand_color-main);
+    color: var(--brand_color-main-alt);
     font-family: "PT Sans", sans-serif;
     font-size: 14px;
-    font-weight: bold
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    
+
+}
+
+.header__top-banner-tel-contacts {
+    margin-left: 20px;
+}
+
+.header__top-banner-contacts {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__top-banner-contacts a {
-    color: var(--brand_color-main);
+    color: var(--brand_color-main-alt);
     text-decoration: none;
 }
 
 .header__top-banner-contacts a:hover {
-    color: var(--brand_color-main);
+    color: var(--brand_color-main-alt);
     text-decoration: underline;
 }
 
+.header__top-navigation-container {
+    color: var(--brand_color-main-alt);
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    height: 100px;
+    background-color: var(--background-color);
+    width: 100%;
+}
 
+.navigation {
+    display: grid;
+    grid-template-columns: 16% 42% 42%;
 
+}
 
+.navigation-wrapper-button a {
+    color: var(--brand_color-main-alt);
+    text-decoration: none;
+}
 
+.navigation-wrapper {
+    padding: 30px;
+    margin: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-.header__banner {
+.header__main-page {
     background-image: url(../img/header/head_bunner_background.jpg);
     background-size: cover;
-   
+    height: 100vh;
+    
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-.header__top-navigation {
-    background-color: var(--background-color);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-
-.header__top-navigation {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-    z-index: 10;
-}
-
-
-.button__head-Shop_Now {
-    padding-top: 18px;
-    padding-right: 32px;
-    padding-bottom: 18px;
-    padding-left: 18px;
-    color: var(--brand_color-main-alt);
-    background-color: var(--brand_color-secondary);
-    display: inline-block;
-    text-decoration: none;
-    font-family: "PT Sans", sans-serif;
-    font-size: 16.5px;
-    font-weight: bold;
-
-}
-
-
-
-.header__subheader {
+.header__main-page-subheader {
     font-family: 'Bebas Neue', cursive;
     color: var(--brand_color-subtitle);
     font-size: 24px;
     font-weight: 400;
+    
 }
 
-.header__main-banner {
+.header__main-page-main-text {
     font-family: 'Bebas Neue', cursive;
-    font-size: 62px;
+    font-size: 124px;
     font-weight: 400;
-    line-height: 1;
-
-    position: relative;
-    margin-left: 5%;
 }
 
 .text_brand {
     color: var(--brand_color-secondary);
+}
+
+.header__main-page-button a {
+    background-color: var(--brand_color-secondary);
+    color: var(--brand_color-main-alt);
+    padding: 15px 26px;
+    margin: 16px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16.5px;
+    font-weight: 700;
+}
+
+.header__main-page-button :hover {
+    background-color: var(--brand_color-main);
 }

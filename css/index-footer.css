@@ -1,47 +1,23 @@
+.footer-map {
+    background-repeat: no-repeat;
+}
 
-#footer-box-on-map{
-    background-color: white;
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.footer-logo {
+    width: 168px;
 }
-@media (min-width: 640px) {
-    #footer-box-on-map {
+
+.box-on-map {
+    background-color: var(--brand_color-main-alt);
+}
+
+@media(max-width: 768px) {
+
+    .box-on-map {
         display: flex;
-        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        height: 200px;
+        border: 0px;
     }
-}
-.footer-h2{
-    color: var(--main-text-color);
-}
-.footer-red-button{
-    color: var(--footer-dot-color);
-}
-.footer-p-color{
-    color: var(--footer-p-color);
-}
-.footer-hr{
-    border: none;
-    background-color: var(--footer-hr-background-color);
-    color: var(--footer-hr-background-color);
-    height: 4px;
-}
-.footer-hr-bottom{
-    border: none;
-    background-color: var(--footer-hr-bottom-background-color);
-    color: var(--footer-hr-bottom-background-color);
-    height: 2px;
-}
-.footer-a{
-    color: var(--footer-a-color);
-    text-decoration: none;
-}
-.footer-nav{
-    color: var(--footer-nav-a-color);
-}
-footer-nav a:hover{
-    text-decoration: none;
-    transition: background-color .3s;
-    color: var(--footer-nav-a-color);
 }
