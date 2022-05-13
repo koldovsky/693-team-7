@@ -7,22 +7,30 @@
 }
 
 .box-on-map {
-    background-color: var(--brand_color-main-alt);
+    background-color: var(--brand_color-secondary);
     display: block;
 }
 
 @media(max-width: 767px) {
 
     .box-on-map {
-        display: flex;
-        justify-content: center;
+        display: block;
         text-align: center;
-        width: 300px;
+        width: 700px;
         height: 200px;
-        border: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
-
+.footer-dot{
+    color: var(--brand_color-secondary);
+}
 .footer-phone-number {
-    margin: 25px;
+    margin-top: 25px;
+}
+.footer-addres{
+    margin-top: 25px;
+}
+.footer-email{
+    margin-top: 25px;
 }
