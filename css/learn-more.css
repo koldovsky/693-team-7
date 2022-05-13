@@ -51,23 +51,36 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
+    display: grid;
+    grid-template-columns: 120px 170px 180px;
+}
 
-
+.learn-more__content-benefits__top_brands {
+    display: flex;
+    justify-content: start;
 }
 
 .learn-more__content-benefits__top-brands__icon {
     content: url(../img/learn-more/icon.svg);
     width: 24px;
     height: 24px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 
+}
+
+.learn-more__content-benefits__return {
+    display: flex;
+    justify-content: start;
 }
 
 .learn-more__content-benefits__return__icon {
     content: url(../img/learn-more/icon.svg);
     width: 24px;
     height: 24px;
+}
+
+.learn-more__content-benefits__delivery {
+    display: flex;
+    justify-content: start;
 }
 
 .learn-more__content-benefits__delivery__icon {
@@ -109,9 +122,27 @@
     h2.learn-more__content-keep__fit-with__comfort {
         font-size: 93px;
     }
-@media (max-width: 767px) {
-    h2.learn-more__content-keep__fit-with__comfort {
-        font-size: 62px;
-    }
 
-  
+    @media (max-width: 767px) {
+        h2.learn-more__content-keep__fit-with__comfort {
+            font-size: 62px;
+        }
+
+        @media(max-width: 700px) {
+            .learn-more__content-benefits__top_brands {
+                display: block;
+                grid-column: 1/1;
+            }
+
+            .learn-more__content-benefits__delivery {
+                display: block;
+                grid-column: 2/1;
+                width: 150px;
+            }
+
+            .learn-more__content-benefits__return {
+                display: block;
+                grid-column: 3/1;
+
+            }
+        }
