@@ -10,6 +10,7 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     text-decoration: none;
+    letter-spacing: normal;
     color: var(--brand_color-main);
     font-weight: 700;
 }
