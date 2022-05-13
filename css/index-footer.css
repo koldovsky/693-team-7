@@ -7,17 +7,22 @@
 }
 
 .box-on-map {
-    background-color: var(--brand_color-main-alt);
+    background-color: var(--brand_color-secondary);
+    display: block;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
 
     .box-on-map {
         display: flex;
         justify-content: center;
         text-align: center;
         width: 300px;
-        height: 200px;
+        height: 400px;
         border: 0px;
     }
+}
+
+.footer-phone-number {
+    margin: 25px;
 }

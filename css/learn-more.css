@@ -39,6 +39,7 @@
     color: var(--brand_color-main-alt);
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
+    font-weight: 400;
     text-align: left;
     margin: 20px 20px 0 0;
 }
@@ -51,12 +52,15 @@
     font-size: 16px;
     font-weight: 600;
 
+
 }
 
 .learn-more__content-benefits__top-brands__icon {
     content: url(../img/learn-more/icon.svg);
     width: 24px;
     height: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
