@@ -10,13 +10,14 @@
     background-color: var(--brand_color-main-alt);
 }
 
-@media(min-width: 640px) {
+@media(max-width: 768px) {
 
     .box-on-map {
         display: flex;
         justify-content: center;
+        text-align: center;
         width: 300px;
-        height: 160px;
+        height: 200px;
         border: 0px;
     }
 }
