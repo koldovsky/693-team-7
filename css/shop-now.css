@@ -25,6 +25,12 @@
     flex-direction: column;
     justify-content: space-between;
 }
+@media (min-width: 992px) {
+    .shop-now__text {
+        padding: 230px 24px 110px 170px;
+    }
+
+}
 
 .shop-now__subheader,
 .shop-now__h2 {
@@ -50,13 +56,14 @@
 @media (min-width: 768px) {
     .shop-now__h2 {
         font-size: 92px;
-        padding-right: 315px;
+        padding-right: 385px;
         line-height: 1;
     }
 }
 @media (min-width: 992px) {
     .shop-now__h2 {
         font-size: 124px;
+        padding-right: 595px;
     }
 }
 
