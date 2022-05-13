@@ -12,6 +12,11 @@
         min-height: 640px;
     }
 }
+@media (min-width: 992px) {
+    .shop-now {
+        min-height: 803px;
+    }
+}
 
 .shop-now__text {
     padding: 110px 24px 110px 24px;
@@ -40,6 +45,19 @@
     line-height: 62px;
     margin-top: 20px;
     margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+    .shop-now__h2 {
+        font-size: 92px;
+        padding-right: 315px;
+        line-height: 1;
+    }
+}
+@media (min-width: 992px) {
+    .shop-now__h2 {
+        font-size: 124px;
+    }
 }
 
 .shop-now__button {
