@@ -8,7 +8,6 @@
 
 .box-on-map {
     background-color: var(--brand_color-secondary);
-    display: block;
 }
 
 @media(max-width: 767px) {
@@ -20,17 +19,22 @@
         height: 200px;
         margin-left: 20px;
         margin-right: 20px;
+        padding: 30px;
     }
 }
-.footer-dot{
+
+.footer-dot {
     color: var(--brand_color-secondary);
 }
+
 .footer-phone-number {
     margin-top: 25px;
 }
-.footer-addres{
+
+.footer-addres {
     margin-top: 25px;
 }
-.footer-email{
+
+.footer-email {
     margin-top: 25px;
 }
