@@ -3,6 +3,10 @@
     height: 200%;
 }
 
+.footer-block-link{
+    display: block;
+}
+
 .footer-logo {
     width: 168px;
 }
