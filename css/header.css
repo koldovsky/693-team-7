@@ -52,6 +52,45 @@
     align-items: center;
 }
 
+
+
+
+.button_about-us,
+.button_sale,
+.button_collection,
+.button_blog,
+.button_contact-us {
+    display: inline-block;
+    position: relative;
+    color: var(--brand_color-main-alt);
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--brand_color-main-alt);
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+
+
+
+
+
+
+
+
 .navigation-wrapper-button a {
     color: var(--brand_color-main-alt);
     text-decoration: none;
@@ -65,7 +104,7 @@
 .header__main-page {
     background-image: url(../img/header/head_bunner_background.jpg);
     background-size: cover;
-    height: 1080px 100vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: top center;
 }
