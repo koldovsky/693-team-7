@@ -73,18 +73,20 @@
 .main-collection__text{
     margin: 100px 0 100px 100px;
 }
+/* --need fixed "a" and "nav"--
 a{
     font-size: 36px;
     text-decoration: none;
     color: var(--paragraph_text-color);
     letter-spacing: 5px;
     padding: 0 10px;
-    text-decoration: none;
+    text-decoration: none; 
 }
+ 
 nav{
     display: flex;
     justify-content: space-around;
-    margin: 50px;
+    margin: 50px; */
 }
 .offers__body{
     width: 780px;
