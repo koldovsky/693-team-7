@@ -1,3 +1,5 @@
+
+
 .header__top-line {
     width: 100%;
     height: 48px;
@@ -52,7 +54,9 @@
     grid-template-columns: 20% 40% 40%;
     padding-top: 30px;
     padding-bottom: 30px;
+    
     align-items: center;
+
 }
 
 .navigation-wrapper-button a {
@@ -126,4 +130,13 @@
 
 .header__main-page-button :hover {
     background-color: var(--brand_color-main);
+}
+
+
+.header__top-banner,
+.navigation,
+.header__main-page-container
+ {
+padding-left: 24px;
+padding-right: 24px;
 }
