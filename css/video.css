@@ -1,5 +1,14 @@
 .video {
     background-image: url(../img/video-bg.jpg);
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.svg-filter-btn {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
 }
 
 .video__subtitle {
