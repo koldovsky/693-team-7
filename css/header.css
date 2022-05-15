@@ -73,11 +73,16 @@
 
 .header__main-page {
     background-image: url(../img/header/head_bunner_background.jpg);
-    background-size: contain;
-    height: 100vh;
+    background-size: cover;
+    height: 1080px 100vh;
     background-repeat: no-repeat;
     background-position: top center;
-    
+
+}
+
+.header__main-page-container {
+    padding-top: 182px;
+    padding-bottom: 182px;
 }
 
 .header__main-page-subheader {
@@ -85,13 +90,23 @@
     color: var(--brand_color-subtitle);
     font-size: 24px;
     font-weight: 400;
+
 }
 
 .header__main-page-main-text {
     font-family: 'Bebas Neue', cursive;
     font-size: 124px;
     font-weight: 400;
+
 }
+
+
+.header__main-page-main-text {
+    /*display: grid;
+    grid-template-columns: 60% 40%; */
+
+}
+
 
 .text_brand {
     color: var(--brand_color-secondary);
