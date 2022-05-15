@@ -105,13 +105,15 @@ a:hover:after {
     background-image: url(../img/header/head_bunner_background.jpg);
     background-size: cover;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-position: top center;
+    
+    background-position: center;
+    height: 800px;
+    
 }
 
 .header__main-page-container {
-    padding-top: 182px;
-    padding-bottom: 182px;
+    padding-top: 180px;
+    padding-bottom: 210px;
 }
 
 .header__main-page-subheader {
@@ -119,6 +121,7 @@ a:hover:after {
     color: var(--brand_color-subtitle);
     font-size: 24px;
     font-weight: 400;
+    margin-bottom: 15px;
 }
 
 .header__main-page-head-text {
@@ -130,6 +133,7 @@ a:hover:after {
     font-family: 'Bebas Neue', cursive;
     font-size: 124px;
     font-weight: 400;
+    line-height: 124px;
 }
 
 .text_brand {
@@ -139,8 +143,14 @@ a:hover:after {
 .header__main-page-button a {
     background-color: var(--brand_color-secondary);
     color: var(--brand_color-main-alt);
-    padding: 15px 26px;
-    margin: 16px 0;
+    
+    padding: 18px 34px;
+    margin-top: 50px;
+    
+    
+    
+    
+    
     text-decoration: none;
     display: inline-block;
     font-family: 'PT Sans', sans-serif;
@@ -158,3 +168,10 @@ a:hover:after {
     padding-left: 24px;
     padding-right: 24px;
 }
+
+
+
+.fa-brands fa-facebook-f {
+    
+    background-image: url(../img/header/head_bunner_background.jpg);
+} 
