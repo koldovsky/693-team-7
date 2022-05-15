@@ -18,10 +18,9 @@
 @media(max-width: 767px) {
 
     .box-on-map {
-        display: block;
         text-align: center;
         width: 700px;
-        height: 200px;
+        height: 150px;
         margin-left: 20px;
         margin-right: 20px;
         padding: 30px;
