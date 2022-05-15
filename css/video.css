@@ -3,7 +3,7 @@
     background-position: center center;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-direction: column;
 }
 
@@ -20,7 +20,7 @@
 
 .video__title {
     color: var(--background-color);
-    font-size: 62px;
+    font-size: 124px;
     font-weight: 400;
 }
 
@@ -32,6 +32,10 @@
     text-decoration: none;
     display: inline-block;
     font-family: 'PT Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 700; 
+    font-size: 16.5px;
+    font-weight: 700;
+}
+
+.video__link-btn:hover {
+    background-color: var(--brand_color-main);
 }
