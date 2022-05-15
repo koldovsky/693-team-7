@@ -1,5 +1,15 @@
 .about-us {
     background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.svg-filter-sotial-link {
+    filter: invert(8%) sepia(100%) saturate(4649%) hue-rotate(352deg) brightness(148%) contrast(111%);
+}
+
+.svg-filter-sotial-link:hover{
+    filter: invert(10%) sepia(3%) saturate(420%) hue-rotate(131deg) brightness(93%) contrast(89%);
 }
 
 .about-us__item-title {
@@ -22,3 +32,16 @@
     font-weight: 400;
     line-height: 30px;
 }
+
+.about-us__sotial-media-links {
+    display: block;
+    position: relative;
+    margin: 3px;
+}
+
+/* .about-us__sotial-media-item {
+    width: 34px;
+    height: 34px;
+    border: 1px solid var(--brand_color-secondary)
+} */
+

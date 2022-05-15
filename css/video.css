@@ -1,5 +1,14 @@
 .video {
     background-image: url(../img/video-bg.jpg);
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.svg-filter-btn {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
 }
 
 .video__subtitle {
@@ -11,7 +20,7 @@
 
 .video__title {
     color: var(--background-color);
-    font-size: 62px;
+    font-size: 124px;
     font-weight: 400;
 }
 
@@ -23,6 +32,10 @@
     text-decoration: none;
     display: inline-block;
     font-family: 'PT Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 700; 
+    font-size: 16.5px;
+    font-weight: 700;
+}
+
+.video__link-btn:hover {
+    background-color: var(--brand_color-main);
 }
