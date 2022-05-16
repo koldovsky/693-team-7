@@ -243,8 +243,14 @@
         </section>
         <section class="shopping-cart">
             <form action="https://formspree.io/f/xlezapel" method="post" class="shopping-cart__form">
-                <label for="name" class="shopping-cart__form-name">Name<sup class="shopping-cart__form-required">*</sup></label>
+                <label for="name" class="shopping-cart__form-label">Name<sup class="shopping-cart__form-required">*</sup></label>
                 <input type="text" name="name" id="name" placeholder="Your name" required>
+                <label for="email" class="shopping-cart__form-label">Email<sup class="shopping-cart__form-required">*</sup></label>
+                <input type="email" name="email" id="email" placeholder="Your email addres" required>
+                <label for="phone" class="shopping-cart__form-label">Phone<sup class="shopping-cart__form-required">*</sup></label>
+                <input type="tel" name="phone" id="phone" placeholder="Your phone" required>
+                <label for="comment" class="shopping-cart__form-label">Comment</label>
+                <textarea name="comment" id="comment" rows="4" placeholder="Your comment"></textarea>
             </form>
         </section>
         <section class="shop-now">
