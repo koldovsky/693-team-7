@@ -45,3 +45,29 @@
     border: 1px solid var(--brand_color-secondary)
 } */
 
+
+
+
+/* Vadim`s red icons */
+.fa {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    margin: 0 0px 0px 10px;
+    border: 1px solid;
+  }
+  
+  .fa:hover {
+    background-color: var(--brand_color-secondary);
+    color: var(--background-color);
+    transition-duration: 0.2s;
+  }
+  
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube {
+    color: var(--brand_color-secondary);
+  }

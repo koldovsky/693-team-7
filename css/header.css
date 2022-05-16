@@ -154,10 +154,6 @@ a:hover:after {
     text-align: end;
 }
 
-.fa-brands {
-    background-image: url(../img/header/head_bunner_background.jpg);
-} 
-
 .fa {
     font-size: 14px;
     width: 30px;
