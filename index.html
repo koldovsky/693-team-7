@@ -10,8 +10,10 @@
     <!--<meta http-equiv="refresh" content="10">  automatic refrsh web 10 sec-->
     <!--<meta http-equiv="refresh" content="10; url=https://www.ukr.net/ua/">-->
     <title>Team#7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -50,7 +52,8 @@
                         <div class="navigation-wrapper-button">
                             <a href="#about-us" class="button_about-us">About us.</a> <!-- About us (ready) -->
                             <a href="#shop-now-sale" class="button_sale">Sale.</a> <!-- Sale (ready) -->
-                            <a href="#main-collection" class="button_collection">Collection.</a> <!-- Collection (ready) -->
+                            <a href="#main-collection" class="button_collection">Collection.</a>
+                            <!-- Collection (ready) -->
                             <a href="#blog" class="button_blog">Blog.</a> <!-- Blog (ready) -->
                             <a href="#contact_us" class="button_contact-us">Contact us.</a> <!-- Contact us (ready) -->
                         </div>
@@ -75,8 +78,9 @@
                     <div class="header__main-page-text">
                         <div class="header__main-page-subheader">ASPIRE TO MORE</div>
                         <div class="header__main-page-head-text">
-                        <h1 class="header__main-page-main-text">NEW<span class="text_brand"> COLLECTIONS </span>BY TOP
-                            BRANDS<span class="text_brand">.</span></h1>
+                            <h1 class="header__main-page-main-text">NEW<span class="text_brand"> COLLECTIONS </span>BY
+                                TOP
+                                BRANDS<span class="text_brand">.</span></h1>
                         </div>
                     </div>
                     <div class="header__main-page-button">
@@ -159,10 +163,11 @@
         <!-- Serhiy Petelin start code-->
         <section id="about-us" class="about-us">
             <div class="container">
-                <div class="about-us__item">                
-                    <div class="img"><img class="about-us__item-img" src="img/about-us-img.jpg" alt="About us image"></div>
+                <div class="about-us__item">
+                    <div class="img"><img class="about-us__item-img" src="img/about-us-img.jpg" alt="About us image">
+                    </div>
                     <div class="about-us__item-content">
-                        <h2 class="about-us__item-title title">About us<span class="special-dot">.</span></h2>                        
+                        <h2 class="about-us__item-title title">About us<span class="special-dot">.</span></h2>
                         <div class="special-divider"></div>
                         <p class="about-us__item-subtitle">Workout is an American
                             fitness store created by fitness geeks for those
@@ -179,9 +184,18 @@
                             outstanding results.</p>
                     </div>
                     <div class="about-us__sotial-media-links">
-                        <a class="about-us__sotial-media-item svg-filter-sotial-link" href="https://www.facebook.com"><img class="about-us__sotial-media-img svg-filter-sotial-link" src="../img/facebook-icon.svg" alt="facebook"></a>                        
-                        <a class="about-us__sotial-media-item svg-filter-sotial-link" href="https://www.instagram.com"><img class="about-us__sotial-media-img svg-filter-sotial-link" src="../img/instagram-icon.svg" alt="instagram"></a>                    
-                        <a class="about-us__sotial-media-item svg-filter-sotial-link" href="https://www.youtube.com"><img class="about-us__sotial-media-img svg-filter-sotial-link" src="../img/youtube-icon.svg" alt="youtube"></a>
+                        <a class="about-us__sotial-media-item svg-filter-sotial-link"
+                            href="https://www.facebook.com"><img
+                                class="about-us__sotial-media-img svg-filter-sotial-link" src="../img/facebook-icon.svg"
+                                alt="facebook"></a>
+                        <a class="about-us__sotial-media-item svg-filter-sotial-link"
+                            href="https://www.instagram.com"><img
+                                class="about-us__sotial-media-img svg-filter-sotial-link"
+                                src="../img/instagram-icon.svg" alt="instagram"></a>
+                        <a class="about-us__sotial-media-item svg-filter-sotial-link"
+                            href="https://www.youtube.com"><img
+                                class="about-us__sotial-media-img svg-filter-sotial-link" src="../img/youtube-icon.svg"
+                                alt="youtube"></a>
                     </div>
                 </div>
             </div>
@@ -191,7 +205,7 @@
                 <p class="video__subtitle">trending</p>
                 <h2 class="video__title title">New fitness collection<span class="special-dot">.</span></h2>
                 <a class="video__video_preview-btn" data-fancybox href="https://www.youtube.com/watch?v=t8PKNTbut_M">
-                <img class="video__btn-img svg-filter-btn" src="img/video_btn.svg" alt="video button"></a>                
+                    <img class="video__btn-img svg-filter-btn" src="img/video_btn.svg" alt="video button"></a>
                 <a class="video__link-btn" href="#main-collection">Shop Now →</a>
             </div>
         </section>
@@ -243,11 +257,14 @@
         </section>
         <section class="shopping-cart">
             <form action="https://formspree.io/f/xlezapel" method="post" class="shopping-cart__form">
-                <label for="name" class="shopping-cart__form-label">Name<sup class="shopping-cart__form-required">*</sup></label>
+                <label for="name" class="shopping-cart__form-label">Name<sup
+                        class="shopping-cart__form-required">*</sup></label>
                 <input type="text" name="name" id="name" placeholder="Your name" required>
-                <label for="email" class="shopping-cart__form-label">Email<sup class="shopping-cart__form-required">*</sup></label>
+                <label for="email" class="shopping-cart__form-label">Email<sup
+                        class="shopping-cart__form-required">*</sup></label>
                 <input type="email" name="email" id="email" placeholder="Your email addres" required>
-                <label for="phone" class="shopping-cart__form-label">Phone<sup class="shopping-cart__form-required">*</sup></label>
+                <label for="phone" class="shopping-cart__form-label">Phone<sup
+                        class="shopping-cart__form-required">*</sup></label>
                 <input type="tel" name="phone" id="phone" placeholder="Your phone" required>
                 <label for="comment" class="shopping-cart__form-label">Comment</label>
                 <textarea name="comment" id="comment" rows="4" placeholder="Your comment"></textarea>
@@ -450,31 +467,32 @@
             <p><a href="#" class="footer-email">workout@email.com</a></p>
         </div>
         <img src="img/header/logo.svg" alt="Store Logo" class="footer-logo">
-        <p>Workout offers fitness clothing and footwear for those<br>who want to change their lives and bodies for better.</p>
+        <p>Workout offers fitness clothing and footwear for those<br>who want to change their lives and bodies for
+            better.</p>
         <nav>
             <h3>Navigation</h3>
             <hr>
             <div class="footer-block-link">
-            <a href="#about-us">About us.</a> <!-- About us (work) -->
-            <a href="#main-collection">Collection.</a> <!-- Main Collection (work) -->
-            <a href="#blog">Blog.</a> <!-- Blog (work) -->
-            <a href="#contact_us">Contact us.</a> <!-- Contact us (work) -->
-            <div>
-            <h3>Shop</h3>
-            <hr>
-            <div class="footer-block-link">
-            <a href="#main-collection">Women.</a> <!-- Main collection (work) -->
-            <a href="#main-collection">Men.</a> <!-- Main collection (work) -->
-            <a href="#main-collection">Shoes.</a> <!-- Main collection (work) -->
-            <a href="#shop-now-sale">Sale.</a> <!-- Sale (ready) -->
-            </div>
-            <h3>Follow Us</h3>
-            <hr>
-            <div class="footer-link-icons footer-block-link">
-                <a href="https://www.facebook.com"> <i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i></a>
-                <a href="https://www.youtube.com"> <i class="fa-brands fa-youtube"></i></a>
-            </div>
+                <a href="#about-us">About us.</a> <!-- About us (work) -->
+                <a href="#main-collection">Collection.</a> <!-- Main Collection (work) -->
+                <a href="#blog">Blog.</a> <!-- Blog (work) -->
+                <a href="#contact_us">Contact us.</a> <!-- Contact us (work) -->
+                <div>
+                    <h3>Shop</h3>
+                    <hr>
+                    <div class="footer-block-link">
+                        <a href="#main-collection">Women.</a> <!-- Main collection (work) -->
+                        <a href="#main-collection">Men.</a> <!-- Main collection (work) -->
+                        <a href="#main-collection">Shoes.</a> <!-- Main collection (work) -->
+                        <a href="#shop-now-sale">Sale.</a> <!-- Sale (ready) -->
+                    </div>
+                    <h3>Follow Us</h3>
+                    <hr>
+                    <div class="footer-link-icons footer-block-link">
+                        <a href="https://www.facebook.com"> <i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"> <i class="fa-brands fa-youtube"></i></a>
+                    </div>
         </nav>
         <hr>
         <h4>© Created by</h4>
@@ -485,6 +503,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
