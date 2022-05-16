@@ -52,9 +52,6 @@
     align-items: center;
 }
 
-
-
-
 .button_about-us,
 .button_sale,
 .button_collection,
@@ -83,14 +80,6 @@ a:hover:after {
     transform-origin: bottom center;
 }
 
-
-
-
-
-
-
-
-
 .navigation-wrapper-button a {
     color: var(--brand_color-main-alt);
     text-decoration: none;
@@ -105,10 +94,8 @@ a:hover:after {
     background-image: url(../img/header/head_bunner_background.jpg);
     background-size: cover;
     height: 100vh;
-    
     background-position: center;
     height: 800px;
-    
 }
 
 .header__main-page-container {
@@ -143,14 +130,8 @@ a:hover:after {
 .header__main-page-button a {
     background-color: var(--brand_color-secondary);
     color: var(--brand_color-main-alt);
-    
     padding: 18px 34px;
     margin-top: 50px;
-    
-    
-    
-    
-    
     text-decoration: none;
     display: inline-block;
     font-family: 'PT Sans', sans-serif;
@@ -169,9 +150,33 @@ a:hover:after {
     padding-right: 24px;
 }
 
+.navigation-social-icons {
+    text-align: end;
+}
 
-
-.fa-brands fa-facebook-f {
-    
+.fa-brands {
     background-image: url(../img/header/head_bunner_background.jpg);
 } 
+
+.fa {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    margin: 0 0px 0px 10px;
+    border: 1px solid;
+  }
+  
+  .fa:hover {
+    background-color: rgb(224, 224, 224);
+    color: var(--background-color);
+    transition-duration: 0.2s;
+  }
+  
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube {
+    color: rgb(224, 224, 224);
+  }
