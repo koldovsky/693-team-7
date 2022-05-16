@@ -3,6 +3,11 @@
     margin: 70px 10px;
 }
 
+.sale__text-container {
+    display: block;
+    width: 85%;
+    margin: auto;
+}
 .sale__h2 {
     text-align: center;
     font-size: 38px;
