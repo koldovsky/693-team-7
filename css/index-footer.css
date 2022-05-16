@@ -41,5 +41,17 @@
 
 .footer-bottom-nav{
     width: 750px;
-    height: auto;
+    color: var(--background-color);
+}
+
+.footer-text-nav{
+    color: var(--brand_color-main-alt);
+}
+
+.footer-hr-color{
+    color: var(--brand_color-secondary);
+}
+
+.footer-hr-color-bottom{
+    color: var(--paragraph_text-color);
 }
