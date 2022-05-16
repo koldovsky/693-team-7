@@ -12,6 +12,7 @@
         min-height: 640px;
     }
 }
+
 @media (min-width: 992px) {
     .shop-now {
         min-height: 803px;
@@ -25,6 +26,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
 @media (min-width: 992px) {
     .shop-now__text {
         padding: 230px 24px 110px 170px;
@@ -60,6 +62,7 @@
         line-height: 1;
     }
 }
+
 @media (min-width: 992px) {
     .shop-now__h2 {
         font-size: 124px;
@@ -70,23 +73,17 @@
 .shop-now__button {
     font-family: "PT Sans", sans-serif;
     color: var(--brand_color-main);
+    background-color: var(--brand_color-main-alt);
     font-size: 17px;
     text-decoration: none;
     font-weight: 700;
     line-height: 22px;
-}
-
-.shop-now__conteiner {
-    max-width: fit-content;
-    background-color: var(--brand_color-main-alt);
-    padding: 18px 30px;
-    margin: 10px;
-}
-
-.shop-now__conteiner:hover {
-    background-color: var(--brand_color-main);
+    padding: 20px 26px;
+    margin: 16px 0;
+    width: fit-content;
 }
 
 .shop-now__button:hover {
-    color: var(--brand_color-main-alt)
+    color: var(--brand_color-main-alt);
+    background-color: var(--brand_color-main);
 }

@@ -25,10 +25,11 @@
     width: 80%;
     height: 570px;
 }
-.special-dot{
+/*.special-dot already declared in common.css file*/
+/*.special-dot{
     font-family: "PT Sans",cursive;
     display: inline-block;
-}
+}*/
 .main-collection__text{
     font-family: "PT Sans",cursive;
     display: inline-block;
@@ -86,8 +87,8 @@ a{
 nav{
     display: flex;
     justify-content: space-around;
-    margin: 50px; */
-}
+    margin: 50px; 
+}*/
 .offers__body{
     width: 780px;
     height: 570px;

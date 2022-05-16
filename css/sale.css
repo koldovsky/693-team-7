@@ -114,3 +114,7 @@
     padding: 15px 26px;
     margin: 16px 0;
 }
+
+.sale__items-item-button:hover {
+    background-color: var(--brand_color-secondary);
+}
