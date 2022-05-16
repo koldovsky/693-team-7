@@ -3,7 +3,7 @@
     height: 200%;
 }
 
-.footer-block-link{
+.footer-link-icons{
     display: block;
 }
 
@@ -20,7 +20,7 @@
     .box-on-map {
         text-align: center;
         width: 700px;
-        height: 150px;
+        height: 255px;
         margin-left: 20px;
         margin-right: 20px;
         padding: 30px;
@@ -37,4 +37,21 @@
 
 .footer-phone-number {
     margin: 20px;
+}
+
+.footer-bottom-nav{
+    width: 800px;
+    color: var(--background-color);
+}
+
+.footer-text-nav{
+    color: var(--brand_color-main-alt);
+}
+
+.footer-hr-color{
+    color: var(--brand_color-secondary);
+}
+
+.footer-hr-color-bottom{
+    color: var(--paragraph_text-color);
 }
