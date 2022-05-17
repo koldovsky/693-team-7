@@ -15,6 +15,8 @@
     padding-bottom: 15px;
 }
 
+
+
 .header__top-banner-tel-contacts {
     margin-left: 20px;
 }
@@ -34,11 +36,31 @@
     text-decoration: underline;
 }
 
+@media (max-width: 991px) {
+    .header__top-line {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .navigation-wrapper,
+    .navigation-social-icons {
+        display: none;
+    }
+}
+
+.header {
+    min-width: 867px;
+}
+
+
+
 .header__top-navigation-container {
     color: var(--brand_color-main-alt);
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
-    height: 100px;
+    /*height: 100px;*/
     background-color: var(--background-color);
     width: 100%;
     font-weight: 400;
@@ -61,6 +83,12 @@
     position: relative;
     color: var(--brand_color-main-alt);
 }
+
+
+
+
+
+
 
 .navigation-wrapper-button a:after {
     content: '';
