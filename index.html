@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="keywords" lang="ru" content="Спортивный магазин"> <!-- keywords "ru" for search web -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- user-scalable=no  -->
     <meta name="keywords" lang="en" content="Sport Clothes"> <!-- keywords "eng" for search web -->
     <!--<meta http-equiv="refresh" content="10">  automatic refrsh web 10 sec-->
     <!--<meta http-equiv="refresh" content="10; url=https://www.ukr.net/ua/">-->
@@ -186,6 +187,7 @@
                             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                     </div>
                 </div>
+            </div>
         </section>
         <section class="video">
             <div class="main-wrapper">
@@ -194,7 +196,6 @@
                         <p class="video__subtitle">trending</p>
                         <h2 class="video__title">New fitness collection<span class="special-dot">.</span></h2>
                     </div>
-
                     <div class="video__video-play-btn">
                         <a class="video___preview-btn" data-fancybox href="https://www.youtube.com/watch?v=t8PKNTbut_M">
                             <img class="video__btn-img svg-filter-btn" src="img/video_btn.svg" alt="video button"></a>
@@ -342,9 +343,7 @@
                 <div class="new-arrivals">
                     <h3>New arrivals<span class="special-dot">.</span></h3>
                     <p>Be the first to buy new items by leading brands.</p>
-
                     <button class="more-products-button">more Products</button>
-
                 </div>
                 <div class="products">
                     <div class="product-item">
@@ -474,15 +473,12 @@
             </div>
             <h3 class="footer-text-nav">Follow Us</h3>
             <div class="footer-link-icons">
-                <a href="https://www.facebook.com" class="fa-footer footer-icon-facebook"></a>
-                <link rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <a href="https://www.instagram.com" class="fa-footer footer-icon-instagram"></a>
-                <link rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                <a href="https://www.youtube.com" class="fa-footer footer-icon-youtube"></a>
-                <link rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://www.facebook.com" target="_blank" class="footer-icon-facebook fa-footer"><i
+                        class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="footer-icon-instagram fa-footer"><i
+                        class="fa-brands fa-instagram-square"></i></a>
+                <a href="https://www.youtube.com" target="_blank" class="footer-icon-youtube fa-footer"><i
+                        class="fa-brands fa-youtube-square"></i></a>
             </div>
             <hr class="footer-hr-color-bottom">
             <h4 class="footer-text-nav">© Created by</h4>
@@ -523,14 +519,13 @@
                         <input type="tel" name="phone" id="phone" placeholder="Your phone" required>
                         <label for="comment" class="shopping-cart__label">Comment</label>
                         <textarea name="comment" id="comment" rows="4" placeholder="Your comment"></textarea>
-                        <button type="submit">Order</button>
+                        <button class="shopping-cart__order" type="submit">Order</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
     <!-- Volodymyr end code-->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
