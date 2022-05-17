@@ -60,10 +60,14 @@
 }
 
 .fa-footer{
+    font-size: 14px;
     width: 30px;
     height: 30px;
+    text-align: center;
+    padding: 7px;
     text-decoration: none;
-    margin: 0px 0px 0px 10px;
+    margin: 0 0px 0px 10px;
+    border: 1px solid;
 }
 
 .fa-footer:hover{
