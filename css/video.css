@@ -1,8 +1,9 @@
 .video {
-    background-image: url(../img/video-bg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;    
+    background-image: url(../img/video-bg.jpg);    
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    height: 800px;
 }
 
 .video__content {
@@ -57,4 +58,5 @@
 
 .video__link-btn:hover {
     background-color: var(--brand_color-main);
+    color: var(--brand_color-main-alt);
 }
