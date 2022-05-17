@@ -15,8 +15,6 @@
     padding-bottom: 15px;
 }
 
-
-
 .header__top-banner-tel-contacts {
     margin-left: 20px;
 }
@@ -35,26 +33,6 @@
     color: var(--brand_color-main-alt);
     text-decoration: underline;
 }
-
-@media (max-width: 991px) {
-    .header__top-line {
-        display: none;
-    }
-}
-
-@media (max-width: 991px) {
-
-    .navigation-wrapper,
-    .navigation-social-icons {
-        display: none;
-    }
-}
-
-.header {
-    min-width: 867px;
-}
-
-
 
 .header__top-navigation-container {
     color: var(--brand_color-main-alt);
@@ -83,12 +61,6 @@
     position: relative;
     color: var(--brand_color-main-alt);
 }
-
-
-
-
-
-
 
 .navigation-wrapper-button a:after {
     content: '';
@@ -203,4 +175,13 @@
 .fa-instagram,
 .fa-youtube {
     color: rgb(224, 224, 224);
+}
+
+@media (max-width: 991px) {
+
+    .header__top-line,
+    .navigation-wrapper,
+    .navigation-social-icons {
+        display: none;
+    }
 }
