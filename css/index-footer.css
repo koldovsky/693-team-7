@@ -55,3 +55,13 @@
 .footer-hr-color-bottom{
     color: var(--paragraph_text-color);
 }
+
+.footer-link-icons{
+    color: var(--brand_color-secondary);
+}
+
+.footer-link-icons a:hover{
+    background-color: var(--brand_color-secondary);
+    color: var(--brand_color-secondary);
+    transition-duration: 0.2s;
+}
