@@ -56,11 +56,14 @@
     color: var(--paragraph_text-color);
 }
 
-.footer-link-icons{
+.footer-icon-facebook,
+.footer-icon-instagram,
+.footer-icon-youtube{
+
     color: var(--brand_color-secondary);
 }
 
-.footer-link-icons a:hover{
+.footer-link-icons:hover{
     background-color: var(--brand_color-secondary);
     color: var(--brand_color-secondary);
     transition-duration: 0.2s;
