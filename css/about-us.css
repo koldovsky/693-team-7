@@ -1,4 +1,4 @@
-.about-us {
+.about-us__item {
     background-color: var(--background-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -12,9 +12,21 @@
     filter: invert(10%) sepia(3%) saturate(420%) hue-rotate(131deg) brightness(93%) contrast(89%);
 }
 
+
+.about-us__item-content{
+    padding: 110px 30px 120px 30px;
+
+}
+
+.special-divider {
+    height: 2px;
+    width: 78px;
+    margin: 15px 0;
+}
+
 .about-us__item-title {
     color: var(--brand_color-main-alt);
-    font-size: 38px;
+    font-size: 52px;
     font-weight: 400;
 }
 
@@ -45,7 +57,13 @@
     border: 1px solid var(--brand_color-secondary)
 } */
 
+.about-us__item-text {
+    margin-top: 40px;
+}
 
+.navigation-social-icons-red {
+    margin-top: 30px;
+}
 
 
 /* Vadim`s red icons */
