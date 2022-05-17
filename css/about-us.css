@@ -14,7 +14,7 @@
 
 
 .about-us__item-content{
-    padding: 110px 30px 120px 30px;
+    padding: 110px 50px 90px 50px;
 
 }
 
@@ -79,7 +79,7 @@
   }
   
   .fa:hover {
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(244, 1, 6);
     color: var(--background-color);
     transition-duration: 0.2s;
   }
@@ -87,5 +87,5 @@
   .fa-facebook,
   .fa-instagram,
   .fa-youtube {
-    color: rgb(224, 224, 224);
+    color: rgb(244, 1, 6);
   }
