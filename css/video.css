@@ -1,16 +1,24 @@
 .video {
     background-image: url(../img/video-bg.jpg);
     background-position: center center;
+    background-repeat: no-repeat;
     height: 100vh;    
 }
 
 .video__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 200px;
 }
 
 .video__video-play-btn {
     padding: 0 15px;
+    margin-top: 150px;
+    margin-right: 0;
+}
+
+.video__link-anchor-btn {
+    padding-bottom: 200px;
 }
 
 .video__btn-img {
