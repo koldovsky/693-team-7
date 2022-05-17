@@ -62,7 +62,7 @@
     color: var(--brand_color-main-alt);
 }
 
-a:after {
+.navigation-wrapper-button a:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -75,7 +75,7 @@ a:after {
     transition: transform 0.25s ease-out;
 }
 
-a:hover:after {
+.navigation-wrapper-button a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom center;
 }
@@ -163,16 +163,16 @@ a:hover:after {
     text-decoration: none;
     margin: 0 0px 0px 10px;
     border: 1px solid;
-  }
-  
-  .fa:hover {
+}
+
+.fa:hover {
     background-color: rgb(224, 224, 224);
     color: var(--background-color);
     transition-duration: 0.2s;
-  }
-  
-  .fa-facebook,
-  .fa-instagram,
-  .fa-youtube {
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-youtube {
     color: rgb(224, 224, 224);
-  }
+}
