@@ -504,6 +504,16 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <article class="shopping-cart__products">
+                        <h6 class="shopping-cart__h6">Products</h6>
+                        <div class="shopping-cart__item">
+                            <img src="img/sale/shopping-cart-trainers.jpeg" alt="white trainers">
+                            <h6 class="shopping-cart__h6">Adidas Cloudfoam Trainers</h6>
+                            <input type="text" name="qty" id="qty" required>
+                        </div>
+
+                    </article>
+                    <h6 class="shopping-cart__h6">Place an order</h6>
                     <form action="https://formspree.io/f/xlezapel" method="post" class="shopping-cart">
                         <label for="name" class="shopping-cart__label">Name<sup
                                 class="shopping-cart__required">*</sup></label>
@@ -516,11 +526,8 @@
                         <input type="tel" name="phone" id="phone" placeholder="Your phone" required>
                         <label for="comment" class="shopping-cart__label">Comment</label>
                         <textarea name="comment" id="comment" rows="4" placeholder="Your comment"></textarea>
+                        <button type="submit">Order</button>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>

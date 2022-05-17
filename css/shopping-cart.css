@@ -1,4 +1,4 @@
 .shopping-cart {
-    display: grid;
-    grid-template-rows: repeat(8, 1fr);
+    display: flex;
+    flex-direction: column;
 }
