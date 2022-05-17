@@ -79,7 +79,7 @@
   }
   
   .fa:hover {
-    background-color: rgb(244, 1, 6);
+    background-color: rgb(224, 224, 224);
     color: var(--background-color);
     transition-duration: 0.2s;
   }
@@ -87,5 +87,5 @@
   .fa-facebook,
   .fa-instagram,
   .fa-youtube {
-    color: rgb(244, 1, 6);
+    color: rgb(224, 224, 224);
   }
