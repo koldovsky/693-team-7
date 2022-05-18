@@ -67,7 +67,7 @@
 }
 
 .fa-footer:hover{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(255, 255, 255);
     color: var(--brand_color-secondary);
     transition-duration: 0.2s;
 }
@@ -75,5 +75,5 @@
 .footer-icon-facebook,
 .footer-icon-instagram,
 .footer-icon-youtube {
-    color: rgb(224, 224, 224);;
+    color: var(--brand_color-secondary);
 }
