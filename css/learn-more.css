@@ -130,6 +130,10 @@
     h2.learn-more__content-keep__fit-with__comfort {
         font-size: 93px;
     }
+    .learn-more__content-description {
+        margin: 20px 0px 0 0;
+        padding-right: 24px;
+}
 }
 
 @media (max-width: 767px) {
