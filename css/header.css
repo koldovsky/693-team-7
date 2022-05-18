@@ -79,7 +79,7 @@
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
+    height: 1px;
     bottom: -5px;
     left: 0;
     background-color: var(--brand_color-main-alt);
@@ -221,7 +221,7 @@
     text-align: end;
 }
 
-.fa {
+.header-fa {
     font-size: 14px;
     width: 30px;
     height: 30px;
