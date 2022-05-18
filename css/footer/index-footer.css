@@ -61,6 +61,7 @@
 
 .fa-footer{
     margin-right: 10px;
+    border: 1px solid;
 }
 
 .fa-footer:hover{
@@ -71,4 +72,5 @@
 
 .footer-icon-media {
     color: var(--brand_color-secondary);
+    display: inline;
 }
