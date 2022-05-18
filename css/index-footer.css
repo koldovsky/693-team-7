@@ -60,9 +60,6 @@
 }
 
 .fa-footer{
-    width: 30px;
-    height: 30px;
-    text-decoration: none;
     margin-right: 10px;
 }
 
@@ -72,8 +69,6 @@
     transition-duration: 0.2s;
 }
 
-.footer-icon-facebook,
-.footer-icon-instagram,
-.footer-icon-youtube {
+.footer-icon-media {
     color: var(--brand_color-secondary);
 }
