@@ -58,22 +58,3 @@
     text-align: center;
 }
 }
-
-.fa-footer{
-    width: 30px;
-    height: 30px;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.fa-footer:hover{
-    background-color: rgb(255, 255, 255);
-    color: var(--brand_color-secondary);
-    transition-duration: 0.2s;
-}
-
-.footer-icon-facebook,
-.footer-icon-instagram,
-.footer-icon-youtube {
-    color: var(--brand_color-secondary);
-}
