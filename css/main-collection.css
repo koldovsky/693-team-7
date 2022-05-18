@@ -1,69 +1,80 @@
 
 
 .offers__text-saleUP{
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     font-family: "PT Sans",cursive;
+    font-weight: 400;
     color: var(--brand_color-main-alt);
-    /*font-size: 36px;*/
+    font-size: 24px;
 }
 .offers__text-saleDOWN{
     color: var(--brand_color-main-alt);
     text-decoration: none;
     font-family: "PT Sans",cursive;
-    /*font-size: 14px;*/
-}
-
-.offers__container{
-    display: grid;
-    gap: 5px;
-}
-.offers__body{
-    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
 }
 .offers__body-img{
     width: 80%;
     height: 570px;
 }
-/*.special-dot already declared in common.css file*/
-/*.special-dot{
+.special-dot{
     font-family: "PT Sans",cursive;
     display: inline-block;
-}*/
+    font-weight: 700;
+}
 .main-collection__text{
-    font-family: "PT Sans",cursive;
-    display: inline-block;
+    margin-bottom: 50px;
+    font-size: 34px;
+    font-family: "Bebas Neue",cursive;
+    display: inline;
 }
 .main-collection__head{
-    margin: 100px;
+    margin-top: 115px;
+    justify-content: center;
+    font-family: "PT Sans",cursive;
+    text-align: center;
+}
+.main-collection__head2{
+    margin-top: 115px;
+    display: grid;
+    justify-content: center;
     font-family: "PT Sans",cursive;
     text-align: center;
 }
 .main-collection__display-container{
-    text-align: left;
-    margin-left: 15%;
+    display: grid;
+    justify-content: center;
+    margin: 0 25px;
+}
+.main-collection__display-container__body-img{
+    width: 272px;
+    height: 272px;
 }
 .main-collection__display-container__body-name{
-    margin-top: 75px;
+    margin-top: 25px;
     font-family: "PT Sans",cursive;
     color: var(--paragraph_text-color);
+    font-size: 18px;
 }
 .main-collection__display-container__body-price{
-    margin-top: 50px;
+    font-size: 18px;
+    margin-top: 25px;
     font-family: "PT Sans",cursive;
     color: var(--brand_color-secondary);
     font-weight: 700;
 }
 .main-collection__display-container__body-button{
-    margin-top:75px;
-    margin-bottom: 100px;
+    margin-top:25px;
+    margin-bottom: 50px;
     font-family: "PT Sans",cursive;
     background-color: var(--brand_color-main);
     color: var(--brand_color-main-alt);
-    font-size: 36px;
+    font-size: 15px;
     font-weight: 700;
-    width: 300px;
-    height: 120px;
+    width: 125px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,47 +82,142 @@
 .main-collection__display-container__body-button:hover{
     background-color: var(--brand_color-secondary);
 }
-.main-collection__text{
-    margin: 100px 0 100px 100px;
-}
-/* --need fixed "a" and "nav"--
-a{
-    font-size: 36px;
+.main-collection__display-type__text{
+    font-size: 16px;
     text-decoration: none;
     color: var(--paragraph_text-color);
     letter-spacing: 5px;
-    padding: 0 10px;
-    text-decoration: none; 
+    padding: 0 20px;
 }
- 
-nav{
+.main-collection__display-type{
     display: flex;
-    justify-content: space-around;
-    margin: 50px; 
-}*/
+    justify-content: center;
+    margin:100px 25px 50px 25px ;
+}
 .offers__body{
-    width: 780px;
-    height: 570px;
+    text-align: center;
+    margin-top: 50px;
+    width: 290px;
+    height: 184px;
 }
 .offers__text{
-    margin-left: 40px;
-    width: 700px;
-    height: 300px;
+    margin-left: 15px;
+    width: 260px;
+    height: 110px;
     opacity: 0.8;
-    margin-top: 220px;
+    margin-top: 55px;
     background-color: var(--brand_color-main);
 }
 #offers__body_1{
-    background-image: url("img/main-collection/red_T-shir_black_men.jpg");
+    background-image: url("../img/main-collection/red_T-shir_black_men.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 #offers__body_2{
-    background-image: url("img/main-collection/grey_hoody_with_back.jpg");
+    background-image: url("../img/main-collection/grey_hoody_with_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 #offers__body_3{
-    background-image: url("img/main-collection/red-green_sneakers.jpg");
+    background-image: url("../img/main-collection/red-green_sneakers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .offers__container{
-    display: flex;
-    margin-left: 10%;
-    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+}
+.main-collection__text-down{
+    display: grid;
+    justify-content: center;
+    width: 300px;
+    font-size: 20px;
+    font-family: "PT Sans",cursive;
+    color: var(--paragraph_text-color);
+}
+@media screen and (min-width: 767px) and (max-width: 1023px ){
+    .offers__container{
+        grid-template-columns: repeat(2 , 350px);
+        grid-auto-rows: 220px;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+    #offers__body_3{
+        width: 720px;
+        height: 460px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    .offers__body{
+        width: 350px;
+        height: 220px;
+        display: grid;
+        justify-content: center;
+    }
+    .offers__text{
+        margin-top: 100px;
+        width: 310px;
+        height: 105px;
+        opacity: 0.8;
+        background-color: var(--brand_color-main);
+    }
+    #offers__text_3{
+        margin-top: 320px;
+        width: 610px;
+        height: 105px;
+        opacity: 0.8;
+        background-color: var(--brand_color-main);
+    }
+    .main-collection__text-down{
+        width: 700px;
+    }
+    .main-collection__display-type__text{
+        font-size: 16px;
+        color: var(--paragraph_text-color);
+        letter-spacing: 5px;
+        padding: 0 20px;
+    }
+    .main-collection__display-type{
+        justify-content: center;
+        margin:100px 25px 50px 25px ;
+    }
+    .main-collection__display-container{
+        display: flex;
+        /*display: grid;*/
+        /*grid-template-columns: repeat(2 , 525px);*/
+        /*grid-auto-rows: 380px;*/
+    }
+    /*#main-collection__display-container__body__3{*/
+
+    /*}*/
+
+    /*.main-collection__display-container__body-img{*/
+    /*    width: 352px;*/
+    /*    height: 352px;*/
+    /*}*/
+    /*.main-collection__display-container__body-name{*/
+    /*    margin-top: 25px;*/
+    /*    font-size: 18px;*/
+    /*}*/
+    /*.main-collection__display-container__body-price{*/
+    /*    font-size: 18px;*/
+    /*    margin-top: 25px;*/
+    /*}*/
+    /*.main-collection__display-container__body-button{*/
+    /*    margin-top:25px;*/
+    /*    margin-bottom: 50px;*/
+    /*    font-size: 15px;*/
+    /*    width: 125px;*/
+    /*    height: 50px;*/
+    /*}*/
+}
+@media screen and (min-width: 1024px ) {
+
 }
