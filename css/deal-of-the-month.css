@@ -1,243 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-body{
-    margin: 0px;
-    padding: 0px;
-} 
 .wrapper-deal-of-the-month{
-    max-width: 1470px;
-    margin: 0 auto;
-    display: flex;
+display: flex;
 }
 .deal-of-the-month{
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 100%;
-    height: 600px;
-}
-.table{
-    height: 300px;
-    text-align: left;
-    padding-top: 100px;
-    padding: 100px 100px 100px;
-    font-size: 25px;
-}
-.deal-of-the-month p{
-    text-align: left;
-}
-.red-dot{
-    color: red;
+    background-color: var(--brand_color-main);
+    color: var(--brand_color-main-alt);
 }
 .deal-of-the-month h3{
-    font-family: 'Bebas Neue', cursive;
-    font-style: normal;
-    letter-spacing: normal;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: left;
+    color: var(--brand_color-main-alt);
+}
+.red-dot{
+    color: var(--brand_color-secondary);
 }
 .deal-of-the-month h6{
-    font-family: 'Bebas Neue';
-    text-align: left;
+    color: var( --brand_color-main-alt);
 }
 .dollar50{
-    color: red;
+    color: var(--brand_color-secondary);
+    font-size: 20px;
 }
-.dollar70{
-    color: white;
-    text-decoration: line-through;
-}
-.more-details a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 10px;
+.deal-of-the-month p{
+    color: var( --brand_color-main-alt);
 }
 .timer{
-    text-align: left;
+    color: var( --brand_color-main-alt);
 }
- .image{
-   width: 50%;
-
-} 
-.image-ico{
-    object-fit: cover;
-    width: 600px;
-    object-position: 0px 10%;
-    height: 600px;
+.table-deal-of-the-month{
+    margin-top: 50px;
+    margin: 51px 96px 50px 90px;
+    border: none;
 }
-/* ==============deal of the month============== */
-
-/* ==============white block============== */
+.more-details a{
+    color:var(--brand_color-main-alt);
+    text-decoration: none;
+    font-size: 11px;
+}
+/* ===========WHITE BLOCK==================== */
 .white-block{
-    background-color: white;
-    max-width: 1200px;
     display: flex;
     flex-direction: row;
-    margin: auto;
-    padding-top: 25px;
+    margin-top: 45px;
+    margin-left: 20px;
 }
 .new-arrivals{
     margin: 15px;
+    font-size: 10px;
+    padding: 15px;
 }
-.line-hr{
-    color:gray;
-}
-.new-arrivals p{
-    color: gray;
-    font-size: 18px;
-    margin: 5px;
-}
-/* .new-arrivals h3{ */
-
-.more-products-button{
-    color: rgb(249, 244, 244);
-    border: 2px solid black;
-    padding: 15px 15px;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-    background-color: rgb(8, 8, 8);
-}
-.products{
-    color: white;
-    text-align: center;
-    display: flex;
-    padding: 3px;
-    flex-wrap: wrap;
-    align-content: center;
-   
-}
-.product-item h5{
-    color: black;
-}
-.item-price {
-    color: red;
-    font-weight: bold;
-}
-.add-to-cart{
-    padding: 15px 25px;
-    background-color: black;
-    color: white;
-}
-.product-item{
-    margin: 7px;
-}
-.product-item img{
-   width: 200px;
-}
-
-.dollar50{
+.new-arrivals h3{
     font-size: 30px;
 }
-/* .new-arrivals{
-    margin: 35px;
+.products{
+display: flex;
+text-align: center;
 }
+/* .product-item h5{ */
+    /* text-align: center; */
 .product-item{
-margin: 15px;
-} */
-/* ==============white block============== */
-
-@media screen and (max-width: 1200px) {
-    .wrapper-deal-of-the-month{
-        display: flex;
-        flex-direction: column;
-    }
-    .image-ico{
-        max-width: 1200px;
-    }
-    .white-block{
-        max-width: 1200px;
-        display: flex;
-        flex-direction: column;
-    }
-    .products{
-        max-width: 1200px;
-        margin: 0 auto;
-        flex-direction: column;
-    }
-    .product-item{
-        max-width: 336px;
-        display: flex;
-        flex-direction: column;
-    }
-    .table {
-        height: auto;
-        text-align: center;
-        padding-top: 8px;
-        padding: 17px 60px 60px;
-        font-size: 25px;
-    }
-    .product-item img{
-        width: 350px;
-    }
+    padding: 9px;
 }
-@media screen and (max-width: 770px) {
-    .wrapper-deal-of-the-month{
-        display: flex;
-        flex-direction: column;
-        }
-    .image-ico{
-        max-width: 770px;
-        }
-    .white-block{
-        max-width: 770px;
-        display: flex;
-        flex-direction: column;
-    }
-    .products{
-        max-width: 770px;
-        flex-direction: column;
-    }
-    .product-item{
-        max-width: 336px;
-        display: flex;
-        flex-direction: column;
-    }
-    .table {
-        height: auto;
-        text-align: center;
-        padding-top: 8px;
-        padding: 17px 60px 60px;
-        font-size: 25px;
-    }
-    .product-item img{
-        width: 350px;
-    }
+.item-price{
+    color:var(--brand_color-secondary) ;
+    text-align: center;
 }
-@media screen and (max-width: 600px) {
-    .wrapper-deal-of-the-month{
-        display: flex;
-        flex-direction: column;
-            }
-    .image-ico{
-        max-width: 375px;
-        }
-    .white-block{
-        max-width: 600px;
-        display: flex;
-        flex-direction: column;
-        }
-        .products{
-            max-width: 375px;
-            flex-direction: column;
-        }
-        .product-item{
-            max-width: 336px;
-            display: flex;
-            flex-direction: column;
-        }
-        .table {
-            height: auto;
-            text-align: center;
-            padding-top: 8px;
-            padding: 17px 60px 60px;
-            font-size: 25px;
-        }
-        .product-item img{
-            width: 350px;
-        }
-        
-    }
-
-
+.add-to-cart{
+    margin: 0 auto;
+   background-color: var(--background-color);
+   color: var(--brand_color-main-alt)
+}
