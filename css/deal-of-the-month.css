@@ -1,39 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .wrapper-deal-of-the-month{
-display: flex;
+    display: flex;
+    /* justify-content: center; */
+    width: auto;
+    height: 740px;
 }
 .deal-of-the-month{
-    background-color: var(--brand_color-main);
+    background-color: var(--background-color);
     color: var(--brand_color-main-alt);
+    width: 50%;
 }
 .deal-of-the-month h3{
     color: var(--brand_color-main-alt);
+    font-size: 124px;
+    font-weight: 400;
 }
 .red-dot{
     color: var(--brand_color-secondary);
 }
 .deal-of-the-month h6{
     color: var( --brand_color-main-alt);
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 .dollar50{
     color: var(--brand_color-secondary);
-    font-size: 20px;
+    font-size: 38px;
 }
 .deal-of-the-month p{
     color: var( --brand_color-main-alt);
+    font-size: 20px;
+}
+.image{
+    background-image: url(../img/sale6/image-girl.webp);
+    height: 740px;
+    background-size:cover;
+    background-position: center;
+    width: 50%;
+
 }
 .timer{
     color: var( --brand_color-main-alt);
 }
 .table-deal-of-the-month{
-    margin-top: 50px;
-    margin: 51px 96px 50px 90px;
+    margin: auto;
     border: none;
+    width: 500px;
+    margin-top: 80px;
 }
 .more-details a{
     color:var(--brand_color-main-alt);
     text-decoration: none;
-    font-size: 11px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 /* ===========WHITE BLOCK==================== */
 .white-block{
@@ -41,30 +61,178 @@ display: flex;
     flex-direction: row;
     margin-top: 45px;
     margin-left: 20px;
+    height: 740px;
 }
 .new-arrivals{
-    margin: 15px;
-    font-size: 10px;
+    width: 30%;
     padding: 15px;
+    margin-left:20px;
+}
+.new-arrivals p{
+    color: var(--paragraph_text-color);
+    font-size: 20px;
 }
 .new-arrivals h3{
-    font-size: 30px;
+    font-size: 50px;
 }
 .products{
 display: flex;
-text-align: center;
+/* text-align: center; */
+
 }
 /* .product-item h5{ */
     /* text-align: center; */
 .product-item{
     padding: 9px;
 }
+.product-item p{
+    color: var(--paragraph_text-color);
+    font-size: 20px;
+    text-transform: capitalize;
+    /* font-weight: bold; */
+    margin-top: 15px;
+}
 .item-price{
-    color:var(--brand_color-secondary) ;
-    text-align: center;
+    color:var(--brand_color-secondary);
+    /* letter-spacing: 2px; */
+    font-family: "PT Sans",cursive;
+    font-size: 18px;
+    font-weight: bold;
 }
 .add-to-cart{
     margin: 0 auto;
    background-color: var(--background-color);
-   color: var(--brand_color-main-alt)
+   color: var(--brand_color-main-alt);
+   padding: 13px;
+   font-size: 15px;
+   font-weight: 600;
+   
+}
+.more-products-button{
+    background-color: var(--brand_color-main-alt);
+    color: var( --brand_color-main);
+    border: 1px solid black;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-top: 20px;
+}
+@media screen and (min-width: 768px){
+    .wrapper-deal-of-the-month{
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+    }
+    .deal-of-the-month{
+        width: 375px;
+        height: 500px;
+    }
+    .deal-of-the-month h3{
+        font-size: 45px;
+       padding: 15px;
+    }
+    .deal-of-the-month h6{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .deal-of-the-month p{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .new-arrivals{
+        width: 100%;
+    }
+    .white-block{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 2600px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 375px;
+    }   
+}
+@media screen and (min-width: 550px){
+    .wrapper-deal-of-the-month{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+    }
+    .deal-of-the-month{
+        width: 375px;
+        height: 500px;
+    }
+    .deal-of-the-month h3{
+        font-size: 45px;
+       padding: 15px;
+    }
+    .deal-of-the-month h6{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .deal-of-the-month p{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .new-arrivals{
+        width: 100%;
+    }
+    .white-block{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 2600px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 375px;
+    } 
+    
+}
+@media screen and (min-width: 375px){
+    .wrapper-deal-of-the-month{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+    .deal-of-the-month{
+        width: 375px;
+        height: 500px;
+    }
+    .deal-of-the-month h3{
+        font-size: 45px;
+       padding: 15px;
+    }
+    .deal-of-the-month h6{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .deal-of-the-month p{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .new-arrivals{
+        width: 100%;
+    }
+    .white-block{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 2600px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 375px;
+    }
 }
