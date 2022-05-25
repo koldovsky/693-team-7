@@ -1,0 +1,20 @@
+#blog {
+
+}
+#blog .slider {
+    display: flex;
+    
+}
+#blog .slider .item {
+    width: 321px;
+    height: 188px;
+    padding: 15px;
+    flex-shrink: 0;
+}
+#blog .slider .item .inner-item {
+    border: 1px solid gray;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
