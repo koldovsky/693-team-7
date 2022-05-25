@@ -27,8 +27,9 @@
     color: var(--brand_color-secondary);
 }
 
-.footer__addres {
+.footer-addres {
     margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .footer-phone-number {
