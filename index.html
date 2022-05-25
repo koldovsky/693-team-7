@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- user-scalable=no  -->
-    <meta name="keywords" lang="en" content="Sport Clothes"> <!-- keywords "eng" for search web -->
-    <!--<meta http-equiv="refresh" content="10">  automatic refrsh web 10 sec-->
-    <!--<meta http-equiv="refresh" content="10; url=https://www.ukr.net/ua/">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <meta name="keywords" lang="en" content="Sport Clothes"> 
     <title>Team#7</title>
     <script src="https://kit.fontawesome.com/e0a8f1f543.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -65,6 +65,7 @@
                 </nav>
             </div>
             <div class="header__main-page">
+               <!-- <div class="header__main-page-empty-blockfirst"></div> -->
                 <div class="header__main-page-container">
                     <div class="header__main-page-text">
                         <div class="header__main-page-subheader">ASPIRE TO MORE</div>
@@ -78,6 +79,7 @@
                         <a href="#main-collection" class="button__head-Shop_Now">Shop Now →</a>
                     </div>
                 </div>
+               <!-- <div class="header__main-page-empty-blocksecond"></div> -->
             </div>
         </section>
     </header>
@@ -189,7 +191,7 @@
         <section class="video">
             <div class="main-wrapper">
                 <div class="video__content">
-                    <div class="video__content">
+                    <div class="video__content-text">
                         <p class="video__subtitle">trending</p>
                         <h2 class="video__title title">New fitness collection<span class="special-dot">.</span></h2>
                     </div>
@@ -277,7 +279,7 @@
                     </div>
                 </div>
                 <div id="offers__body_3" class="offers__body">
-                    <div class="offers__text">
+                    <div id="offers__text_3" class="offers__text">
                         <h3 class="offers__text-saleUP">25% off all trainers</h3>
                         <a class="offers__text-saleDOWN" href="#">Shop Collection →</a>
                     </div>
@@ -287,33 +289,35 @@
         <section id="main-collection">
             <div class="main-collection__head">
                 <h3 class="main-collection__text">MAIN COLLECTION</h3>
-                <h3 class="special-dot">.</h3>
-                <p>Shop our main fitness collection for men and women represented by the famous brands.</p>
+                <p class="special-dot">.</p>
+            </div>
+            <div class="main-collection__head2">
+                <p class="main-collection__text-down">Shop our main fitness collection for men and women represented by the famous brands.</p>
             </div>
             <div id="main-collection__display" class="main-collection__display">
                 <nav class="main-collection__display-type">
-                    <a class="main-collection__display-type__text" href="">Women</a>
-                    <a class="main-collection__display-type__text" href="">Men</a>
-                    <a class="main-collection__display-type__text" href="">Shoes</a>
+                    <div class="main-collection__display-type__text">Women</div>
+                    <div class="main-collection__display-type__text">Men</div>
+                    <div class="main-collection__display-type__text">Shoes</div>
                 </nav>
                 <div class="main-collection__display-container">
                     <div class="main-collection__display-container__body">
-                        <img class="main-collection__display-container__body-img"
-                            src="img/main-collection/girl_black-clothes.jpg" alt="">
+                        <img class="main-collection__display-container__body-img" src="img/main-collection/girl_black-clothes.jpg"
+                             alt="">
                         <h3 class="main-collection__display-container__body-name">Puma Sports Bra</h3>
                         <h3 class="main-collection__display-container__body-price">$12,00</h3>
                         <div class="main-collection__display-container__body-button">Add to Cart</div>
                     </div>
-                    <div class="main-collection__display-container__body">
-                        <img class="main-collection__display-container__body-img"
-                            src="img/main-collection/girl_pink-clothes.jpg" alt="">
+                    <div id="main-collection__display-container__body__2" class="main-collection__display-container__body">
+                        <img class="main-collection__display-container__body-img" src="img/main-collection/girl_pink-clothes.jpg"
+                             alt="">
                         <h3 class="main-collection__display-container__body-name">Reebok Long Sleeve Top</h3>
                         <h3 class="main-collection__display-container__body-price">$18,00</h3>
                         <div class="main-collection__display-container__body-button">Add to Cart</div>
                     </div>
-                    <div class="main-collection__display-container__body">
-                        <img class="main-collection__display-container__body-img"
-                            src="img/main-collection/girl_gray-clothes.jpg" alt="">
+                    <div id="main-collection__display-container__body__3" class="main-collection__display-container__body">
+                        <img class="main-collection__display-container__body-img" src="img/main-collection/girl_gray-clothes.jpg"
+                             alt="">
                         <h3 class="main-collection__display-container__body-name">Quicksilver Workout Top</h3>
                         <h3 class="main-collection__display-container__body-price">$12,00</h3>
                         <div class="main-collection__display-container__body-button">Add to Cart</div>
@@ -327,7 +331,7 @@
             <div class="wrapper-deal-of-the-month">
     
                 <div class="deal-of-the-month"> 
-                    <div class="table">
+                    <div class="table-deal-of-the-month">
                         <h3>DEAL OF THE MONTH<span class="red-dot">.</span></h3>
                         <h6>PUMA SPORTS BRA   <span class="dollar50">$50</span> <span class="dollar70">$70</span> </h6>
                         <p>Start your fitness story right away with this comfortable bra and get advantage of our discount.</p>
@@ -339,7 +343,7 @@
                 </div>
             
                     <div class="image"> 
-                        <img class="image-ico" src="product-images/image-girl.webp" alt="image-girl"/>
+                        <img class="image-girl"/>
                     </div>
                 </div>
                 <div class="white-block">
@@ -353,33 +357,33 @@
                     </div>
                     <div class="products">
                         <div class="product-item">
-                            <img src="product-images/puma-shoes.jpeg"  alt="Puma Textile Running Shoes"/>
-                            <h5>Puma Textile Running Shoes</h5>
-                            <p class="item-price">$62,00</p>
+                            <img src="img/sale6/puma-shoes.jpeg"  alt="Puma Textile Running Shoes"/>
+                            <p>Puma Textile Running Shoes</p>
+                            <h6 class="item-price">$62,00</h6>
                             <button class="add-to-cart">Add to Cart</button>
                         </div>
                         <div class="product-item">
-                            <img src="product-images/nike-jacked.jpeg"  alt="Nike Winter Jacket in Blue"/>
-                            <h5>Nike Winter Jacket in Blue</h5>
-                            <p class="item-price">$85,00</p>
+                            <img src="img/sale6/nike-jacked.jpeg"  alt="Nike Winter Jacket in Blue"/>
+                            <p>Nike Winter Jacket in Blue</p>
+                            <h6 class="item-price">$85,00</h6>
                             <button class="add-to-cart">Add to Cart</button>
                         </div>
                         <div class="product-item">
-                            <img src="product-images/adidas-trainers.jpeg"  alt="Adidas Black Trainers"/>
-                            <h5>Adidas Black Trainers</h5>
-                            <p  class="item-price">$60,00</p>
+                            <img src="img/sale6/adidas-trainers.jpeg"  alt="Adidas Black Trainers"/>
+                            <p>Adidas Black Trainers</p>
+                            <h6  class="item-price">$60,00</h6>
                             <button class="add-to-cart">Add to Cart</button>
                         </div>
                         <div class="product-item">
-                            <img src="product-images/reebok-red-duster.jpeg"  alt="Reebok Red Duster"/>
-                            <h5>Reebok Red Duster</h5>
-                            <p  class="item-price">$60,00</p>
+                            <img src="img/sale6/reebok-red-duster.jpeg"  alt="Reebok Red Duster"/>
+                            <p>Reebok Red Duster</p>
+                            <h6  class="item-price">$60,00</h6>
                             <button class="add-to-cart">Add to Cart</button>
                         </div>
                         <div class="product-item">
-                            <img src="product-images/asics-jordan.jpeg"  alt="Asics Jordan 2000"/>
-                            <h5>Asics Jordan 2000"</h5>
-                            <p  class="item-price">$200,00</p>
+                            <img src="img/sale6/asics-jordan.jpeg"  alt="Asics Jordan 2000"/>
+                            <p>Asics Jordan 2000</p>
+                            <h6  class="item-price">$200,00</h6>
                             <button class="add-to-cart">Add to Cart</button>
                         </div>
                     </div>
@@ -521,7 +525,7 @@
                         <input type="tel" name="phone" id="phone" placeholder="Your phone" required>
                         <label for="comment" class="shopping-cart__label">Comment</label>
                         <textarea name="comment" id="comment" rows="4" placeholder="Your comment"></textarea>
-                        <button type="submit">Order</button>
+                        <button type="submit">Order</button> -->
                     </form>
                 </div>
             </div>

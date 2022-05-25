@@ -11,8 +11,8 @@
     font-weight: 400;
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .header__top-banner-tel-contacts {
@@ -38,7 +38,7 @@
     color: var(--brand_color-main-alt);
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
-    /*height: 100px;*/
+    height: 100px;
     background-color: var(--background-color);
     width: 100%;
     font-weight: 400;
@@ -50,6 +50,18 @@
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
+}
+
+.navigation-logo {
+    width: 230px;
+    height: 40px;
+}
+
+@media max-width: 991px {
+    .navigation {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
 
 .button_about-us,
@@ -67,7 +79,7 @@
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
+    height: 1px;
     bottom: -5px;
     left: 0;
     background-color: var(--brand_color-main-alt);
@@ -100,7 +112,15 @@
 
 .header__main-page-container {
     padding-top: 180px;
+    padding-right: 24px;
     padding-bottom: 210px;
+    padding-left: 24px;
+}
+
+@media (max-width: 992px) {
+    .header__main-page-container {
+        margin: 0px;
+    }
 }
 
 .header__main-page-subheader {
@@ -122,6 +142,53 @@
     font-weight: 400;
     line-height: 124px;
 }
+
+
+@media (max-width: 1200px) {
+    .header__main-page-main-text {
+        font-size: 93px;
+        font-weight: 400;
+        line-height: 93px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__main-page-main-text {
+        font-size: 93px;
+        font-weight: 400;
+        line-height: 93px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__main-page-main-text {
+        font-size: 62px;
+        font-weight: 400;
+        line-height: 62px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__main-page-main-text {
+        font-size: 62px;
+        font-weight: 400;
+        line-height: 62px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .text_brand {
     color: var(--brand_color-secondary);
@@ -154,7 +221,7 @@
     text-align: end;
 }
 
-.fa {
+.header-fa {
     font-size: 14px;
     width: 30px;
     height: 30px;
