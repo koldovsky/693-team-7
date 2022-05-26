@@ -1,6 +1,6 @@
 .footer-map {
     background-repeat: no-repeat;
-    height: 200%;
+    z-index: -1;
 }
 
 .footer-logo {
@@ -8,6 +8,7 @@
 }
 
 .box-on-map {
+    z-index: 1;
     background-color: var(--brand_color-secondary);
 }
 
@@ -17,6 +18,7 @@
         text-align: center;
         width: 700px;
         height: 255px;
+        margin-top: -255px;
         margin-left: 20px;
         margin-right: 20px;
         padding: 30px;
