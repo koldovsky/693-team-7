@@ -49,4 +49,8 @@
             `;
         }
     }
-})()
+
+    const items = JSON.parse(itemsJson);
+    renderItems(items);
+
+})();
