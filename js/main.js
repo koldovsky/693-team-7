@@ -15,7 +15,7 @@ $(function () {
 // Init blog slider
 $(function () {
     $("#blog-slider").slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: false,
         infinite: true,

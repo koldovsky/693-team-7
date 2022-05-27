@@ -19,6 +19,7 @@
     --stand-with-ukraine-yellow: rgb(255, 255, 1);
     --input-text-color: rgba(34, 35, 35, 0.12);
     color: var(--brand_color-main);
+    scroll-behavior: smooth;
 }
 
 
