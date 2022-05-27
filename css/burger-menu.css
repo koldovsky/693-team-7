@@ -1,0 +1,123 @@
+/* @media (max-width: 991px) {
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+} */
+
+nav .burger-menu {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 16px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 7;
+}
+
+@media (min-width: 991px) {
+    nav .burger-menu {
+        display: none;
+    }
+}
+
+nav .burger-menu span,
+nav .burger-menu::before,
+nav .burger-menu::after {
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--brand_color-main-alt);
+  transition: all 0.5s ease-in-out;
+}
+
+nav .burger-menu::before,
+nav .burger-menu::after {
+    content: " ";
+    color: var(--brand_color-main-alt);
+}
+
+nav .burger-menu::before {
+    top: 0;
+}
+nav .burger-menu::after {
+    bottom: 0;
+}
+
+nav .burger-menu span {
+    transform: scale(1);
+}
+
+nav .burger-menu.visible span {
+    transform: scale(0);
+}
+
+nav .burger-menu.visible::before {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+nav .burger-menu.visible::after {
+    bottom: 40%;
+    transform: rotate(45deg);
+}
+
+.navigation .navigation-wrapper, .navigation .navigation-social-icons {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+    background-color: var(--background-color);
+    z-index: 2;
+    transition: top 0.3s ease-in;
+    padding: 15px 24px 50px 24px;
+    overflow: hidden;
+    margin: auto;
+    color: var(--brand_color-main-alt);
+}
+
+.navigation .navigation-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 100%;
+}
+
+.navigation .navigation-wrapper.visible, .navigation .navigation-social-icons.visible {
+    top: 0;
+}
+
+@media (min-width: 991px) {
+    .navigation .navigation-wrapper, .navigation .navigation-social-icons {
+        position: relative;
+        top: 0;
+        overflow: visible;
+        margin: 0;
+        padding: 0;
+    }
+    /* .navigation-wrapper, .navigation-social-icons {
+        margin: 0;
+        padding: 0;
+    } */
+    .navigation .navigation-wrapper {
+        padding: 8px 0 0 0;
+    }
+    /*.navigation .navigation-social-icons {
+        padding: 5px 0 0 0;
+    } */
+
+
+}
+
+@media (max-width: 991px) {
+    body.lock {
+      overflow: hidden;
+    }
+}
