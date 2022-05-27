@@ -487,7 +487,9 @@
     <footer id="contact_us">
 
         <div id="map">
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer
+        ></script>
         </div>
 
         <div class="box-on-map">
@@ -582,6 +584,24 @@
     <script src="js/sale-items-list.js" ></script>
     <!--Mykola start code-->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+    <script>
+        function initMap() {
+        
+            const uluru = { lat: -25.344, lng: 131.031 };
+        
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: uluru,
+            });
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+        
+        window.initMap = initMap;
+        </script>
     <!--Mykola start code-->
 </body>
 
