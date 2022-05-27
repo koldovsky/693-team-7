@@ -25,11 +25,18 @@
     }
 }
 
+.footer-block-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .footer-dot {
     color: var(--brand_color-secondary);
 }
 
 .footer-addres {
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
 }

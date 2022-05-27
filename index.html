@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/deal-of-the-month.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="google-map.css" />
+    <script type="module" src="google-map.js"></script>
 </head>
 
 <body>
@@ -484,8 +487,13 @@
     <!-- Pavlo Sokol end code-->
     <!--Smychok Mykola start code-->
     <footer id="contact_us">
-        <img src="img/footer-map.png" alt="footer map" class="footer-map">
+
+        <div id="map"></div>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+            defer></script>
         <div class="box-on-map">
+
             <h2>Contacts<span class="footer-dot">.</span></h2>
             <p class="footer-addres">325 University Ave</p>
             <p>Newark, NJ 07102</p>
