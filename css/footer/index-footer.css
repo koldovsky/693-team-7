@@ -2,6 +2,13 @@
     width: 168px;
 }
 
+@media(min-width: 320){
+    #footert-map{
+    width: 100%;
+    height: 900px;
+    }   
+}
+
 .box-on-map {
     background-color: var(--brand_color-secondary);
 }
