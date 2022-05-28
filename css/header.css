@@ -47,23 +47,18 @@
 @media (min-width: 991px) {
     .navigation {
         display: grid;
-        grid-template-columns: 20% 40% 40%;
+        grid-template-columns: 20% 80%;
         padding-top: 30px;
         padding-bottom: 30px;
         align-items: center;
     }
 }
 
-.navigation-logo {
-    width: 230px;
-    height: 40px;
-    z-index: 3;
-}
-
-@media max-width: 991px {   /* тут помилка, помістив цей стиль до burger-menu.css */
-    .navigation {
-        display: grid;
-        grid-template-columns: 50% 50%;
+@media (min-width: 991px) {
+    .navigation-logo {
+        /* width: 230px; */
+        height: 40px;
+        z-index: 3;
     }
 }
 
@@ -90,9 +85,11 @@
     transition: transform 0.25s ease-out;
 }
 
-.navigation-wrapper-button a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom center;
+@media (min-width: 991px) {
+    .navigation-wrapper-button a:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom center;
+    }
 }
 
 .navigation-wrapper-button a {
@@ -220,8 +217,10 @@
     padding-right: 24px;
 }
 
-.navigation-social-icons {
-    text-align: end;
+@media (min-width: 991px) {
+    .navigation-social-icons {
+        text-align: end;
+    }
 }
 
 .header-fa {
