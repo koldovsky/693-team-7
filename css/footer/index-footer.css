@@ -1,34 +1,22 @@
-.footer-map {
-    background-repeat: no-repeat;
-    z-index: -1;
-}
-
 .footer-logo {
     width: 168px;
 }
 
 .box-on-map {
-    z-index: 1;
     background-color: var(--brand_color-secondary);
 }
 
-@media(max-width: 767px) {
+@media(max-width: px) {
 
     .box-on-map {
         text-align: center;
-        width: 700px;
-        height: 255px;
-        margin-top: -255px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 30px;
+        width: px;
+        height: px;
+        margin-top: px;
+        margin-left: px;
+        margin-right: px;
+        padding: px;
     }
-}
-
-.footer-block-link{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
 }
 
 .footer-dot {
@@ -57,11 +45,7 @@
     color: var(--brand_color-secondary);
 }
 
-.footer-hr-color-bottom{
-    color: var(--paragraph_text-color);
-}
-
-@media(max-width: 767px) {
+@media(max-width: px) {
 
 .footer-link-icons{
     text-align: center;
