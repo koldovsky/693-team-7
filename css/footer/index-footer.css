@@ -6,16 +6,13 @@
     background-color: var(--brand_color-secondary);
 }
 
-@media(max-width: px) {
+@media(min-width: 320px) {
 
     .box-on-map {
         text-align: center;
-        width: px;
-        height: px;
         margin-top: px;
-        margin-left: px;
-        margin-right: px;
-        padding: px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 
