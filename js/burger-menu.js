@@ -10,5 +10,15 @@
         menuBurgerWrapper.classList.toggle("visible");
     });
 
+    const navLinks = document.querySelectorAll(".navigation-link");
+
+    navLinks.forEach((navlink) => {
+        navlink.addEventListener("click", (_) => {
+            document.body.classList.remove("lock");
+            burgerMenuIcon.classList.remove("visible");
+            menuBody.classList.remove("visible");
+            menuBurgerWrapper.classList.remove("visible");
+        })
+    })
     
 })()
