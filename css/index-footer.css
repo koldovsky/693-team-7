@@ -19,7 +19,7 @@
 
 .box-on-map {
     display: flex;
-    background-color: var(--brand_color-secondary);
+    background-color: var(--brand_color-main-alt);
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
