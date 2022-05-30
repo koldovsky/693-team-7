@@ -56,7 +56,8 @@
 }
 
 .footer-bottom-nav {
-    color: var(--background-color);
+    width: 100%;
+    background-color: var(--brand_color-main-alt);
 }
 
 .footer-text-nav {
