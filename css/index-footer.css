@@ -1,5 +1,6 @@
 .footer-map {
     width: 100%;
+    filter: grayscale(1);
 }
 
 .footer-map-wraper{
@@ -14,7 +15,6 @@
     align-items: center;
     justify-content: flex-end;
     position: relative;
-    filter: grayscale(1);
 }
 
 .box-on-map {
