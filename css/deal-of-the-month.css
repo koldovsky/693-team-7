@@ -39,9 +39,44 @@
     width: 50%;
 
 }
+/* ==================timer================ */
 .timer{
     color: var( --brand_color-main-alt);
 }
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: var(--brand_color-main-alt:);
+	display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    margin: 8px;
+    width: 100px;
+    font-size: 20px;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: var(--background-color);
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+/* ==================timer================ */
 .table-deal-of-the-month{
     margin: auto;
     border: none;
