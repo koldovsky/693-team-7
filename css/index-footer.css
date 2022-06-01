@@ -2,12 +2,13 @@
     width: 100%;
     filter: grayscale(1);
 }
-@media(max-width: 767px) {
+@media(min-width: 320px) {
     
 
 .footer-map-wraper{
     display: flex;
     width: 100%;
+    min-height: 700px;
 }
 
 .footer-contacts {
