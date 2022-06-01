@@ -88,15 +88,16 @@
     display: block;
     background-color: var(--brand_color-main-alt);
     background-size: 100% 100%;
-    height: 60px;
-    width: 60px;
-    border: 2px solid var(--brand_color-main-alt);
+    height: 70px;
+    width: 70px;
+    border: 2px solid var(--input-text-color);
     border-radius: 50%;
     position: fixed;
     top: 80px;
     right: 30px;
     z-index: 8;
     cursor: pointer;
+    box-shadow: 0 3px 5px var(--stand-with-ukraine-yellow), 2px 2px 8px var(--stand-with-ukraine-blue);
 }
 
 .shopping-bag-img {
