@@ -58,6 +58,7 @@
 }
 
 .footer-bottom-nav {
+    padding-top: 70px;
     width: 100%;
     background-color: var(--background-color);
 }
@@ -71,15 +72,20 @@
     color: var(--brand_color-secondary);
 }
 
+.footer-hr-color-bottom{
+    color: var(--paragraph_text-color);
+}
+
 .footer-link-icons {
     text-align: center;
 }
 
 .footer-block-link{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     text-decoration: none;
     color: var(--brand_color-main-alt);
-    display: block;
 }
 
 .footer-logo {
