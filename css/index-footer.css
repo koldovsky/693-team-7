@@ -64,6 +64,7 @@
 }
 
 .footer-text-nav {
+    font-size: 25px;
     color: var(--brand_color-main-alt);
     text-align: center;
 }
@@ -89,8 +90,10 @@
 }
 
 .footer-text{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    text-align: center;
+    color: var(--paragraph_text-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer-logo {
