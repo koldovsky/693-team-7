@@ -9,7 +9,7 @@
                   <a href="catalogue01.html" class="sale__items-item-link">${item.name}</a>
                   <p class="sale__items-item-price">$ ${item.price}</p>
                   <button class="sale__items-item-button" type="button" data-bs-toggle="modal"
-                  data-bs-target="#shopping-cart-modal"> Add to Cart</button>
+                  data-bs-target="#shopping-cart-modal">Add to Cart</button>
               </div>
               `;
       }
