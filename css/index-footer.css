@@ -88,6 +88,11 @@
     color: var(--brand_color-main-alt);
 }
 
+.footer-text{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .footer-logo {
     text-align: center;
     width: 168px;
