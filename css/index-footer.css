@@ -71,13 +71,18 @@
     color: var(--brand_color-secondary);
 }
 
-@media(max-width: px) {
+.footer-link-icons {
+    text-align: center;
+}
 
-    .footer-link-icons {
-        text-align: center;
-    }
+.footer-block-link{
+    text-align: center;
+    text-decoration: none;
+    color: var(--brand_color-main-alt);
+    display: block;
 }
 
 .footer-logo {
+    text-align: center;
     width: 168px;
 }
