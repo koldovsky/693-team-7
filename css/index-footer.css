@@ -64,6 +64,7 @@
 }
 
 .footer-text-nav {
+    padding-top: 20px;
     font-size: 25px;
     color: var(--brand_color-main-alt);
     text-align: center;
