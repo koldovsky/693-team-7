@@ -28,6 +28,16 @@
     margin: 50px;
 }
 
+
+@media(min-width: 500px) {
+    
+    .box-on-map{
+        
+    }
+
+}
+
+
 .footer-dot {
     color: var(--brand_color-secondary);
 }
