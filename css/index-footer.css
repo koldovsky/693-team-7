@@ -59,11 +59,12 @@
 
 .footer-bottom-nav {
     width: 100%;
-    background-color: var(--brand_color-main-alt);
+    background-color: var(--background-color);
 }
 
 .footer-text-nav {
     color: var(--brand_color-main-alt);
+    text-align: center;
 }
 
 .footer-hr-color {
