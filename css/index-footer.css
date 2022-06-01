@@ -2,10 +2,10 @@
     width: 100%;
     filter: grayscale(1);
 }
-@media(min-width: 320px) {
-    
+
 
 .footer-map-wraper{
+    width: 100%;
     min-height: 700px;
 }
 
@@ -26,8 +26,6 @@
     position: absolute;
     padding: 15px;
     margin: 50px;
-}
-
 }
 
 .footer-dot {
