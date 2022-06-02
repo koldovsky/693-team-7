@@ -49,7 +49,7 @@
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
-	font-size: 30px;
+	font-size: 10px;
 }
 
 #clockdiv > div{
@@ -161,46 +161,7 @@ display: flex;
     }
     .deal-of-the-month{
         width: 375px;
-        height: 500px;
-    }
-    .deal-of-the-month h3{
-        font-size: 45px;
-       padding: 15px;
-    }
-    .deal-of-the-month h6{
-        font-size: 20px;
-        padding: 15px;
-    }
-    .deal-of-the-month p{
-        font-size: 13px;
-        padding: 15px;
-    }
-    .new-arrivals{
-        width: 100%;
-    }
-    .white-block{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 20px;
-        height: 2600px;
-    }
-    .products{
-        display: flex;
-        flex-direction: column;
-    }
-    .image{
-        width: 375px;
-    }   
-}
-@media screen and (max-width: 550px){
-    .wrapper-deal-of-the-month{
-        display: flex;
-        flex-direction: column;
-        width: 550px;
-    }
-    .deal-of-the-month{
-        width: 375px;
-        height: 500px;
+        height: 533px;
     }
     .deal-of-the-month h3{
         font-size: 45px;
@@ -230,6 +191,53 @@ display: flex;
     .image{
         width: 375px;
     } 
+    #clockdiv{
+        display: flex;
+        width: 1px;
+    }  
+}
+@media screen and (max-width: 550px){
+    .wrapper-deal-of-the-month{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+    }
+    .deal-of-the-month{
+        width: 375px;
+        height: 533px;
+    }
+    .deal-of-the-month h3{
+        font-size: 45px;
+       padding: 15px;
+    }
+    .deal-of-the-month h6{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .deal-of-the-month p{
+        font-size: 13px;
+        padding: 15px;
+    }
+    .new-arrivals{
+        width: 100%;
+    }
+    .white-block{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 2600px;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 375px;
+    } 
+    #clockdiv{
+        display: flex;
+        width: 1px;
+    }  
     
 }
 @media screen and (max-width: 375px){
@@ -240,7 +248,7 @@ display: flex;
     }
     .deal-of-the-month{
         width: 375px;
-        height: 500px;
+        height: 533px;
     }
     .deal-of-the-month h3{
         font-size: 45px;
@@ -270,4 +278,8 @@ display: flex;
     .image{
         width: 375px;
     }
+    #clockdiv{
+        display: flex;
+        width: 1px;
+    }  
 }
