@@ -1,4 +1,5 @@
 .footer-logo {
+    margin: auto;
     text-align: center;
     width: 169px;
 }
@@ -8,6 +9,9 @@
     filter: grayscale(1);
 }
 
+.box-on-map-item{
+    padding-top: 10px;
+}
 
 .footer-map-wraper{
     width: 100%;
@@ -33,11 +37,6 @@
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 130px;
-}
-
-
-@media(min-width: 400px) {
-
 }
 
 .footer-words{
@@ -91,14 +90,16 @@
     margin: auto;
     color: var(--brand_color-secondary-bright);
     width: 19%;
-    height: 3px!important;
 }
 
 .footer-hr-color-2 {
     margin: auto;
     color: var(--brand_color-secondary-bright);
     width: 24%;
-    height: 3px!important;
+}
+
+.footer-hr hr{
+    height: 3px;
 }
 
 .footer-hr-color-bottom {
@@ -115,8 +116,6 @@
 }
 
 .footer-block-link{
-    color: var(--brand_color-main-alt);
-    text-decoration: none;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -124,6 +123,8 @@
 
 .footer-block-link-item{
     padding-bottom: 15px;
+    color: var(--brand_color-main-alt);
+    text-decoration: none;
 }
 
 .footer-block-link-item-2{
@@ -141,8 +142,23 @@
 }
 
 .footer-bottom-text {
+    margin-bottom: 0rem;
     text-align: center;
     font-size: 14px;
     color: var(--brand_color-main-alt);
     padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.footer-block-link-item:hover{
+    text-decoration: underline;
+    color: var(--brand_color-main-alt);
+}
+
+.icon-hover{
+    color: var(--brand_color-secondary-bright);
+}
+
+.icon-hover:hover{
+
 }
