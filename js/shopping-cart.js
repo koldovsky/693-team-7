@@ -44,6 +44,7 @@ function renderCartProducts() {
           <div class="shopping-cart__item">
               <img src="${item.smallImgUrl}" alt="${item.name}">
               <h6 class="shopping-cart__h6">${item.name}</h6>
+              <p class="shopping-cart__price">$ ${item.price}</p>
               <div class="units">
                   <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.id})">-</div>
                   <div class="number">${item.numberOfUnits}</div>
