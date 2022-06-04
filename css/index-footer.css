@@ -48,6 +48,20 @@
         text-align: center;
     }
 
+    .footer-text-nav {
+        text-align: center;
+    }
+
+    .footer-hr-color-1 {
+        margin: auto;
+        max-width: 19%;
+    }
+
+    .footer-hr-color-2 {
+        margin: auto;
+        max-width: 30%;
+    }
+
 }
 
 @media(min-width: 768px) {
@@ -100,6 +114,17 @@
         text-align: left;
     }
 
+    .footer-navigation-conteiner {}
+}
+
+@media (min-width: 992px) {
+    .box-on-map {
+        background-color: var(--brand_color-main-alt);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 300px;
+    }
 }
 
 .footer-words {
@@ -146,20 +171,17 @@
     padding-bottom: 18px;
     font-size: 25px;
     color: var(--brand_color-main-alt);
-    text-align: center;
 }
 
 .footer-hr-color-1 {
-    margin: auto;
     color: var(--brand_color-secondary-bright);
     max-width: 19%;
     height: 3px;
 }
 
 .footer-hr-color-2 {
-    margin: auto;
     color: var(--brand_color-secondary-bright);
-    width: 24%;
+    max-width: 30%;
     height: 3px;
 }
 
