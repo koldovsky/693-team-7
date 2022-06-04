@@ -67,7 +67,7 @@
         background-color: var(--background-color);
     }
 
-    .footer-words{
+    .footer-words {
         display: flex;
         padding-left: 20px;
     }
@@ -195,12 +195,19 @@
     color: var(--brand_color-main-alt);
 }
 
-.icon-hover {
-    
+.icon-hover:hover {
+    color: var(--background-color);
+    background-color: var(--brand_color-secondary-bright);
+    transition-duration: 0.2s;
 }
 
-.icon-hover:hover{
-    
+.icon-hover {
+    text-align: center;
+    padding: 6px 9px 6px 9px;
+    color: var(--brand_color-secondary-bright);
+    border: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .footer-link-icons .fa-facebook,
