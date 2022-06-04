@@ -5,7 +5,10 @@
 //shoppingBag.style.display = "none";
 //})();
 
+const cartProductElement = document.querySelector(".shopping-cart-products");
+
 //cart array
+
 let cart = [];
 
 //Add to Cart
@@ -22,18 +25,34 @@ function addToCart(id) {
     });
     console.log(cart);
   }
-  updateCart;
+  updateCart();
 }
 
 //update cart
-function updateCart(){
+
+function updateCart() {
   renderCartProducts();
   // renderSubtotal();
 }
 
 // render cart products
-function renderCartProducts(){
-  cart.forEach(() => {
 
+function renderCartProducts() {
+  cartProductElement.innerHTML = ""; //clear cart element
+  cart.forEach((item) => {
+    cartProductElement.innerHTML += `
+    <article class="shopping-cart__products">
+          <h6 class="shopping-cart__h6">Products</h6>
+          <div class="shopping-cart__item">
+              <img src="${item.smallImgUrl}" alt="${item.name}">
+              <h6 class="shopping-cart__h6">${item.name}</h6>
+              <div class="units">
+                  <div class="btn minus">-</div>
+                  <div class="number">${item.numberOfUnits}</div>
+                  <div class="btn plus">+</div>
+              </div>
+          </div>
+    </article>
+    `;
   })
 }
