@@ -15,7 +15,7 @@ let cart = [];
 function addToCart(id) {
   // check if product already exist in cart
   if (cart.some((product) => product.id === id)) {
-    alert("Product already in cart!");
+    changeNumberOfUnits("plus", id);
   } else {
     const product = items.find((item) => item.id === id);
 
@@ -29,14 +29,12 @@ function addToCart(id) {
 }
 
 //update cart
-
 function updateCart() {
   renderCartProducts();
   // renderSubtotal();
 }
 
 // render cart products
-
 function renderCartProducts() {
   cartProductElement.innerHTML = ""; //clear cart element
   cart.forEach((item) => {
@@ -47,12 +45,33 @@ function renderCartProducts() {
               <img src="${item.smallImgUrl}" alt="${item.name}">
               <h6 class="shopping-cart__h6">${item.name}</h6>
               <div class="units">
-                  <div class="btn minus">-</div>
+                  <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.id})">-</div>
                   <div class="number">${item.numberOfUnits}</div>
-                  <div class="btn plus">+</div>
+                  <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.id})">+</div>
               </div>
           </div>
     </article>
     `;
-  })
+  });
+}
+
+//change number of units
+function changeNumberOfUnits(action, id) {
+  cart = cart.map((product) => {
+    let oldNumberOfUnits = product.numberOfUnits;
+
+    if (product.id === id) {
+      if (action === "minus" && oldNumberOfUnits > 1) {
+        oldNumberOfUnits--;
+      } else if (action === "plus") {
+        oldNumberOfUnits++;
+      }
+    }
+    return {
+      ...product,
+      numberOfUnits: oldNumberOfUnits,
+    };
+  });
+
+  updateCart();
 }
