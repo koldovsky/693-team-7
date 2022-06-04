@@ -8,7 +8,7 @@
     font-size: 16px;
     font-weight: 700;
     text-transform: capitalize;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
 }
 
 .shopping-cart__products {
@@ -38,6 +38,24 @@
     row-gap: 5px;
 }
 
+.units {
+    display: flex;
+    border: 1px solid var(--brand_color-main);
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.number {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    padding: 2px 10px;
+}
+
+.btn {
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
 .shopping-cart input {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
@@ -57,6 +75,7 @@
     font-family: 'PT Sans', sans-serif;
     line-height: 27px;
 }
+
 .shopping-cart textarea {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
@@ -80,6 +99,7 @@
     width: fit-content;
     font-weight: 500;
 }
+
 .shopping-cart__order:hover {
     background-color: var(--brand_color-main);
 }

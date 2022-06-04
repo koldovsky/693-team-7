@@ -22,4 +22,13 @@ function addToCart(id) {
     });
     console.log(cart);
   }
+  updateCart;
 }
+
+//update cart
+function updateCart(){
+  renderCartProducts();
+  // renderSubtotal();
+}
+
+// render cart products
