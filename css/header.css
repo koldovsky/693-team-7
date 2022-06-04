@@ -176,20 +176,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .text_brand {
     color: var(--brand_color-secondary);
 }
@@ -223,7 +209,7 @@
     }
 }
 
-.header-fa {
+header .fa {
     font-size: 14px;
     width: 30px;
     height: 30px;
