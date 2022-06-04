@@ -4,4 +4,13 @@
   
     //shoppingBag.style.display = "none";
   //})();
+
+//cart array
+let cart = [];
+
+//Add to Cart
+function addToCart(id) {
+  const product = items.find((item) => item.id === id);
+  console.log(product);
+}
   
