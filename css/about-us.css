@@ -4,13 +4,11 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.img-container {
-    background-image: url(../img/about-us-img.jpg);    
+.about-us__item-img {   
     width: 100%;
-   height: auto;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
+   height: 100%;
+   object-fit: cover;
+   object-position: 55.202% 13.885%;
 }
 
 @media (min-width: 320px) {
