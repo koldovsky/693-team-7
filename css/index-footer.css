@@ -44,6 +44,10 @@
         margin-bottom: 130px;
     }
 
+    .footer-block-link {
+        text-align: center;
+    }
+
 }
 
 @media(min-width: 768px) {
@@ -58,7 +62,7 @@
         width: 300px;
         margin-right: 40px;
         margin-left: 40px;
-        margin-bottom: 130px;
+        margin-bottom: 100px;
     }
 
     .footer-bottom-nav {
@@ -68,19 +72,38 @@
     }
 
     .footer-words {
-        display: flex;
         padding-left: 20px;
+        text-align: center;
     }
 
     .footer-logo {
         padding-left: 20px;
     }
 
+    .footer-words-conteiner {
+        width: 300px;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .footer-words-conteiner {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-words {
+        text-align: left;
+    }
+
 }
 
 .footer-words {
     color: var(--paragraph-color-alt);
-    text-align: center;
     padding-top: 35px;
 }
 
@@ -113,6 +136,7 @@
 
 .footer-bottom-nav {
     padding-top: 70px;
+    height: auto;
     width: 100%;
     background-color: var(--background-color);
 }
@@ -129,12 +153,14 @@
     margin: auto;
     color: var(--brand_color-secondary-bright);
     max-width: 19%;
+    height: 3px;
 }
 
 .footer-hr-color-2 {
     margin: auto;
     color: var(--brand_color-secondary-bright);
     width: 24%;
+    height: 3px;
 }
 
 .footer-hr hr {
@@ -158,7 +184,6 @@
 .footer-block-link {
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .footer-block-link-item {
@@ -216,19 +241,19 @@
     color: var(--brand_color-secondary-bright);
 }
 
-.footer-link-icons .fa-facebook:hover{
+.footer-link-icons .fa-facebook:hover {
     color: var(--background-color);
     background-color: var(--brand_color-secondary-bright);
     transition-duration: 0.2s;
 }
 
-.footer-link-icons .fa-instagram:hover{
+.footer-link-icons .fa-instagram:hover {
     color: var(--background-color);
     background-color: var(--brand_color-secondary-bright);
     transition-duration: 0.2s;
 }
 
-.footer-link-icons .fa-youtube:hover{
+.footer-link-icons .fa-youtube:hover {
     color: var(--background-color);
     background-color: var(--brand_color-secondary-bright);
     transition-duration: 0.2s;
