@@ -128,7 +128,7 @@
 .footer-hr-color-1 {
     margin: auto;
     color: var(--brand_color-secondary-bright);
-    width: 19%;
+    max-width: 19%;
 }
 
 .footer-hr-color-2 {
@@ -195,23 +195,41 @@
     color: var(--brand_color-main-alt);
 }
 
-.icon-hover:hover {
-    color: var(--background-color);
-    background-color: var(--brand_color-secondary-bright);
-    transition-duration: 0.2s;
-}
-
-.icon-hover {
+.fa-brands {
     text-align: center;
-    padding: 6px 9px 6px 9px;
     color: var(--brand_color-secondary-bright);
     border: 1px solid;
+    padding: 10px 10px 10px 10px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.fa-brands:hover {
+    border-color: var(--brand_color-secondary-bright);
+    background-color: var(--brand_color-secondary-bright);
+    transition-duration: 0.2s;
 }
 
 .footer-link-icons .fa-facebook,
 .footer-link-icons .fa-instagram,
 .footer-link-icons .fa-youtube {
     color: var(--brand_color-secondary-bright);
+}
+
+.footer-link-icons .fa-facebook:hover{
+    color: var(--background-color);
+    background-color: var(--brand_color-secondary-bright);
+    transition-duration: 0.2s;
+}
+
+.footer-link-icons .fa-instagram:hover{
+    color: var(--background-color);
+    background-color: var(--brand_color-secondary-bright);
+    transition-duration: 0.2s;
+}
+
+.footer-link-icons .fa-youtube:hover{
+    color: var(--background-color);
+    background-color: var(--brand_color-secondary-bright);
+    transition-duration: 0.2s;
 }
