@@ -1,12 +1,12 @@
-//shopping-bag icon hide/display
 const shoppingBag = document.querySelector(".shopping-bag");
 const displayBag = document.querySelector(".sale__items-item-button");
+const cartProductElement = document.querySelector(".shopping-cart-products");
+const totalElement = document.querySelector(".total");
+
+//shopping-bag icon hiden
 shoppingBag.style.display = "none";
 
-const cartProductElement = document.querySelector(".shopping-cart-products");
-
 //cart array
-
 let cart = [];
 
 //Add to Cart
@@ -30,7 +30,18 @@ function addToCart(id) {
 //update cart
 function updateCart() {
   renderCartProducts();
-  // renderSubtotal();
+  renderTotal();
+}
+
+//calculate and render Total
+function renderTotal() {
+  let total = 0;
+
+  cart.forEach((item) => {
+    total += item.price * item.numberOfUnits;
+  });
+
+  totalElement.innerHTML = `<h6 class="shopping-cart__h6">Total: $${total.toFixed(2)}</h6>`;
 }
 
 // render cart products
