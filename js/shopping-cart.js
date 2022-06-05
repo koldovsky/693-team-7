@@ -66,9 +66,18 @@ function renderCartProducts() {
                   <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.id})">+</div>
               </div>
           </div>
+          <div class="bin-icon" onclick="removeItemfromCart(${item.id})">
+              <img src="img/sale/bin-icon.jpeg" alt="bin icon">
+          </div>
     </article>
     `;
   });
+}
+//remove item from the cart
+function removeItemfromCart(id){
+cart = cart.filter((item) => item.id !== id);
+
+updateCart();
 }
 
 //change number of units
