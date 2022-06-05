@@ -13,9 +13,9 @@ let cart = [];
 function addToCart(id) {
   // check if product already exist in cart
   if (cart.some((product) => product.id === id)) {
-    shoppingBag.style.display = "block"; //to display shopping bag icon
     changeNumberOfUnits("plus", id);
   } else {
+    shoppingBag.style.display = "block"; //to display shopping bag icon
     const product = items.find((item) => item.id === id);
 
     cart.push({
