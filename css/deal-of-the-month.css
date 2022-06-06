@@ -96,7 +96,7 @@
     flex-direction: row;
     margin-top: 45px;
     margin-left: 20px;
-    height: 740px;
+    height: 435px;
 }
 .new-arrivals{
     width: 30%;
@@ -118,7 +118,8 @@ display: flex;
 /* .product-item h5{ */
     /* text-align: center; */
 .product-item{
-    padding: 9px;
+    padding: 0px;
+    height: 240px;
 }
 .product-item p{
     color: var(--paragraph_text-color);
@@ -153,6 +154,71 @@ display: flex;
     font-size: 13px;
     margin-top: 20px;
 }
+/* ================carousel================= */
+.wrapper{
+	height: 100%;
+	padding: 50px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+@media (max-width:767px){
+	.wrapper{padding: 50px 10px;}
+}
+
+/* Основные стили */
+
+/* Слайдер */
+.slick-slider{
+	min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+
+/* Слайд */
+.slick-slide img{
+    height: 240px;
+}
+/* Слайд активный */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+
+/* Точки */
+.slick-dots{}
+.slick-dots li{}
+.slick-dots button{}
+
+/* Конкретный слайдер */
+.slider {
+	position: relative;
+	padding: 0px 60px;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+}
+
 @media screen and (max-width: 768px){
     .wrapper-deal-of-the-month{
         display: flex;
@@ -182,7 +248,7 @@ display: flex;
         display: flex;
         flex-wrap: wrap;
         padding: 20px;
-        height: 2600px;
+        height: 800px;
     }
     .products{
         display: flex;
@@ -225,7 +291,7 @@ display: flex;
         display: flex;
         flex-wrap: wrap;
         padding: 20px;
-        height: 2600px;
+        height: 770px;
     }
     .products{
         display: flex;
@@ -269,7 +335,7 @@ display: flex;
         display: flex;
         flex-wrap: wrap;
         padding: 20px;
-        height: 2600px;
+        height: 842px;
     }
     .products{
         display: flex;
