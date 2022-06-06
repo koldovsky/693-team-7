@@ -47,6 +47,10 @@ function renderTotal() {
 
   totalElement.innerHTML = `<h6 class="shopping-cart__h6">Total: $${total.toFixed(2)}</h6>`;
   totalItemsInBag.innerHTML = totalItems;
+  //hide shopping bag if it empty
+  if (total === 0) {
+    shoppingBag.style.display = "none";
+  }
 }
 
 // render cart products
@@ -74,10 +78,10 @@ function renderCartProducts() {
   });
 }
 //remove item from the cart
-function removeItemfromCart(id){
-cart = cart.filter((item) => item.id !== id);
+function removeItemfromCart(id) {
+  cart = cart.filter((item) => item.id !== id);
 
-updateCart();
+  updateCart();
 }
 
 //change number of units
