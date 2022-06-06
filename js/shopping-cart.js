@@ -59,20 +59,20 @@ function renderCartProducts() {
   cart.forEach((item) => {
     cartProductElement.innerHTML += `
     <article class="shopping-cart__products">
-          <h6 class="shopping-cart__h6">Products</h6>
           <div class="shopping-cart__item">
               <img src="${item.smallImgUrl}" alt="${item.name}">
               <h6 class="shopping-cart__h6">${item.name}</h6>
-              <p class="shopping-cart__price">$ ${item.price}</p>
               <div class="units">
                   <div class="btn minus" onclick="changeNumberOfUnits('minus', ${item.id})">-</div>
                   <div class="number">${item.numberOfUnits}</div>
                   <div class="btn plus" onclick="changeNumberOfUnits('plus', ${item.id})">+</div>
               </div>
+              <p class="shopping-cart__price">$ ${item.price}</p>
           </div>
           <div class="bin-icon" onclick="removeItemfromCart(${item.id})">
               <img src="img/sale/bin-icon.jpeg" alt="bin icon">
           </div>
+          <div class="shopping-cart__special-divider"></div>
     </article>
     `;
   });
