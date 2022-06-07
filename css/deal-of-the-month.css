@@ -55,7 +55,6 @@
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: var(--brand_color-main-alt);
 	display: inline-block;
     border-style: solid;
     border-width: 2px;
