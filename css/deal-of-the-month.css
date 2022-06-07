@@ -55,7 +55,7 @@
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: var(--brand_color-main-alt:);
+	background: var(--brand_color-main-alt);
 	display: inline-block;
     border-style: solid;
     border-width: 2px;
@@ -96,7 +96,7 @@
     flex-direction: row;
     margin-top: 45px;
     margin-left: 20px;
-    height: 435px;
+    height: 520px;
 }
 .new-arrivals{
     width: 75%;
@@ -176,9 +176,9 @@ display: flex;
 	display: flex;
 	align-items: flex-start;
 }
-.slick-slide img{
-    height: 240px;
-}
+/* .slick-slide img{
+    height: 240px; */
+
 .slider {
 	position: relative;
 	padding: 0px 60px;
