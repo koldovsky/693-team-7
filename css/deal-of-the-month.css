@@ -182,11 +182,11 @@ display: flex;
 	position: relative;
 	padding: 0px 60px;
 }
-.slider .slick-arrow{
+/* .slider .slick-arrow{
     position: absolute;
     top: 50%;
     z-index: 10;
-}
+} */
 
 @media screen and (max-width: 768px){
     .wrapper-deal-of-the-month{
