@@ -23,15 +23,26 @@
 
 }
 
+.learn-more_original-time{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .learn-more__content-original__brands {
-    display: flex;
-    justify-content: flex-start;
+    
     font-size: 24px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-style: normal;
     opacity: .5;
 }
+#clock{
+  
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    opacity: .5;
+  }
 
 .learn-more__content-keep__fit-with__comfort {
     display: flex;
@@ -161,6 +172,10 @@
         grid-column: 3/1;
 
     }
+    .learn-more_original-time{
+        display:block;
+        
+    }
 }
 
 @media(max-width: 700px) {
@@ -171,9 +186,8 @@
 
     }
 }
-#clock{
-    font-family: system-ui;
-    background: #f06d06;
-    color: white;
-    text-align: center;
-  }
+@media(max-width: 400px) {
+.learn-more__content-description {
+    font-size: 16px;
+    }
+}
